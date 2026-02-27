@@ -22,6 +22,7 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
 ## Dokumentacja
 
 - Dla agenta źródłem prawdy są pliki `AGENTS.md`.
+- Jeśli człowiek prosi o zapamiętanie zasady lub preferencji, zapisz ją w adekwatnym pliku `AGENTS.md` odpowiadającym jej zakresowi.
 - Informacje dla agentów zapisuj w `AGENTS.md` najbliższym zakresowi danej funkcji lub obszaru; globalny `AGENTS.md` traktuj jako miejsce na zasady przekrojowe, gdy nie ma bardziej adekwatnego pliku.
 - Szczegóły techniczne integracji zapisuj w `docs/`.
 - Indeks dokumentacji technicznej znajduje się w `docs/AGENTS.md`.
@@ -39,6 +40,14 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
   - co zostało zmienione,
   - dlaczego,
   - jak to zweryfikowano.
+
+## Kolejność pracy
+
+- Domyślnie pracuj w kolejności:
+  - najpierw specyfikacja do przejrzenia,
+  - potem akceptacja człowieka,
+  - dopiero po akceptacji wdrażanie.
+- Nie przechodź do implementacji przed akceptacją specyfikacji, chyba że człowiek wyraźnie nakaże pominąć ten etap.
 
 ## Interpretacja poleceń
 
@@ -76,4 +85,3 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
 - Poza sytuacjami wyjątkowymi nie rób commitów bezpośrednio do `main`.
 - Każdy commit przygotowuj jako możliwie mały i atomowy.
 - Każdy commit powinien mieć nazwę i krótki opis zmian.
-
