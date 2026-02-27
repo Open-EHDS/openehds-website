@@ -3,7 +3,41 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex, nofollow">
     <title>OpenEHDS Foundation</title>
+    <script>
+      (function () {
+        var supported = { en: "/en/", pl: "/pl/" };
+        var preferences = [];
+
+        if (Array.isArray(navigator.languages) && navigator.languages.length > 0) {
+          preferences = navigator.languages.slice();
+        } else if (navigator.language) {
+          preferences = [navigator.language];
+        }
+
+        function normalize(lang) {
+          if (!lang || typeof lang !== "string") {
+            return "";
+          }
+
+          return lang.toLowerCase().split("-")[0];
+        }
+
+        var destination = supported.en;
+
+        for (var i = 0; i < preferences.length; i += 1) {
+          var normalized = normalize(preferences[i]);
+          if (supported[normalized]) {
+            destination = supported[normalized];
+            break;
+          }
+        }
+
+        var target = destination + window.location.search + window.location.hash;
+        window.location.replace(target);
+      })();
+    </script>
     <style>
       :root {
         color-scheme: light;
@@ -83,11 +117,20 @@
         padding: 2px 6px;
         border-radius: 6px;
       }
+      noscript p {
+        margin-top: 18px;
+        margin-bottom: 0;
+      }
     </style>
   </head>
   <body>
     <main>
       <h1>OpenEHDS Foundation</h1>
+      <p>Redirecting you to the best matching language version based on your browser settings.</p>
+      <p>Przekierowujemy Cie do najlepiej dopasowanej wersji jezykowej na podstawie ustawien przegladarki.</p>
+      <noscript>
+        <p>JavaScript is disabled, so automatic language detection is unavailable. Use the links below.</p>
+      </noscript>
       <p>Select your language to enter the public website. The English and Polish versions are maintained as separate language spaces so each can evolve independently.</p>
       <p>Wybierz jezyk, aby przejsc do publicznej strony fundacji. Wersja angielska i polska dzialaja jako osobne przestrzenie jezykowe.</p>
       <div class="languages">
