@@ -7,7 +7,7 @@ services:
     command:
       - sh
       - -lc
-      - node scripts/themeGenerator.js && hugo --environment production --baseURL http://localhost:8080/ --destination /workspace/public --gc --minify --forceSyncStatic --noBuildLock
+      - node scripts/themeGenerator.js && hugo --environment production --baseURL / --destination /workspace/public --gc --minify --forceSyncStatic --noBuildLock
     volumes:
       - ./site/hugo.toml:/workspace/hugo.toml
       - ./site/go.mod:/workspace/go.mod

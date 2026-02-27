@@ -7,7 +7,7 @@ services:
     command:
       - sh
       - -lc
-      - node scripts/themeGenerator.js --watch & hugo server --bind 0.0.0.0 --baseURL http://localhost:8080/ --appendPort=false --buildDrafts --buildFuture --disableFastRender --forceSyncStatic --noBuildLock
+      - node scripts/themeGenerator.js --watch & hugo server --bind 0.0.0.0 --baseURL / --appendPort=false --buildDrafts --buildFuture --disableFastRender --forceSyncStatic --noBuildLock
     volumes:
       - ./site/hugo.toml:/workspace/hugo.toml
       - ./site/go.mod:/workspace/go.mod

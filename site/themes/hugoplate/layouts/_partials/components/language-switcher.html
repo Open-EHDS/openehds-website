@@ -6,11 +6,11 @@
 {{ $pageTranslations := newScratch }}
 {{/* First, fill all translations of the Home page (failsafe) */}}
 {{ range site.Home.AllTranslations }}
-  {{ $pageTranslations.Set .Language.Lang .Permalink }}
+  {{ $pageTranslations.Set .Language.Lang .RelPermalink }}
 {{ end }}
 {{/* Second, if a translation exists for the current page for the target language, replace failsafe */}}
 {{ range $context.AllTranslations }}
-  {{ $pageTranslations.Set .Language.Lang .Permalink }}
+  {{ $pageTranslations.Set .Language.Lang .RelPermalink }}
 {{ end }}
 
 <select class="{{ $class }}" onchange="location = this.value">
