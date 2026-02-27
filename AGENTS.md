@@ -92,6 +92,7 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
 
 - Główne repozytorium (origin): `git@github.com:Open-EHDS/openehds-website.git`.
 - Oprogramowanie hostujące (origin): `GitHub`.
+- Gdy człowiek prosi o zamknięcie issue, a zakres realizacji jest znany, domyślnie: dodaj komentarz po polsku z podsumowaniem wykonanych prac i linkami do commitów, a następnie zamknij issue.
 
 ## PR i branchowanie
 
