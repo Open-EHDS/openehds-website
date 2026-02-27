@@ -1,6 +1,6 @@
 ---
 title: "Licencje"
-slug: "licencje"
+slug: "licensing"
 meta_title: "Licencje"
 description: "Informacje o licencjach dotyczacych strony OpenEHDS.org, tresci oraz komponentow zewnetrznych."
 draft: false

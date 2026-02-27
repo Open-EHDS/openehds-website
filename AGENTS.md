@@ -6,6 +6,7 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
 
 - Cała komunikacja w projekcie odbywa się w języku polskim.
 - Dotyczy to w szczególności: dokumentacji, opisów zmian, nazewnictwa i treści commitów oraz komunikacji między członkami zespołu i agentami.
+- Publiczne URL-e w serwisie powinny być konsekwentnie utrzymywane w języku angielskim, niezależnie od wersji językowej treści.
 
 ## Zakres
 
