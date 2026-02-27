@@ -1,0 +1,66 @@
+############# Polish navigation ##############
+
+[[main]]
+name = "Start"
+url = "/"
+weight = 1
+
+[[main]]
+name = "O nas"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Programy"
+url = "/programs"
+weight = 3
+
+[[main]]
+name = "Zasoby"
+url = "/resources"
+weight = 4
+
+[[main]]
+name = "Spolecznosc"
+url = "/community"
+weight = 5
+
+[[main]]
+name = "Roadmapa"
+url = "/roadmap"
+weight = 6
+
+[[main]]
+name = "Publikacje"
+url = "/publications"
+weight = 7
+
+[[main]]
+name = "Kontakt"
+url = "/contact"
+weight = 8
+
+[[footer]]
+name = "O nas"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Programy"
+url = "/programs"
+weight = 2
+
+[[footer]]
+name = "Zasoby"
+url = "/resources"
+weight = 3
+
+[[footer]]
+name = "Publikacje"
+url = "/publications"
+weight = 4
+
+[[footer]]
+name = "Polityka prywatnosci"
+url = "/privacy-policy"
+weight = 5

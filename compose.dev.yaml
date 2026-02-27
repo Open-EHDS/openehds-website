@@ -1,18 +1,29 @@
 services:
   hugo:
-    image: ghcr.io/gohugoio/hugo:v0.154.5
-    working_dir: /src
+    build:
+      context: .
+      dockerfile: docker/hugoplate.Dockerfile
+    working_dir: /workspace
     command:
-      - server
-      - --bind
-      - 0.0.0.0
-      - --baseURL
-      - http://localhost:8080/
-      - --buildDrafts
-      - --buildFuture
-      - --disableFastRender
+      - sh
+      - -lc
+      - node scripts/themeGenerator.js --watch & hugo server --bind 0.0.0.0 --baseURL http://localhost:8080/ --appendPort=false --buildDrafts --buildFuture --disableFastRender --forceSyncStatic --noBuildLock
     volumes:
-      - ./site:/src
+      - ./site/hugo.toml:/workspace/hugo.toml
+      - ./site/go.mod:/workspace/go.mod
+      - ./site/theme.toml:/workspace/theme.toml
+      - ./site/package.json:/workspace/package.json
+      - ./site/package-lock.json:/workspace/package-lock.json
+      - ./site/LICENSE:/workspace/LICENSE
+      - ./site/assets:/workspace/assets
+      - ./site/config:/workspace/config
+      - ./site/content:/workspace/content
+      - ./site/data:/workspace/data
+      - ./site/i18n:/workspace/i18n
+      - ./site/layouts:/workspace/layouts
+      - ./site/scripts:/workspace/scripts
+      - ./site/static:/workspace/static
+      - ./site/themes:/workspace/themes
   web:
     image: nginx:1.29-alpine
     entrypoint:
@@ -26,3 +37,4 @@ services:
     restart: unless-stopped
     volumes:
       - ./docker/nginx/dev.conf:/etc/nginx/conf.d/default.conf:ro
+      - ./site/static/index.html:/srv/gateway/index.html:ro

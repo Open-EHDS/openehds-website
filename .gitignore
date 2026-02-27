@@ -1,4 +1,5 @@
 .DS_Store
 site/.hugo_build.lock
+site/resources/*
 site/public/*
 !site/public/.gitkeep

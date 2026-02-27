@@ -1,0 +1,66 @@
+############# English navigation ##############
+
+[[main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[main]]
+name = "About Us"
+url = "/about"
+weight = 2
+
+[[main]]
+name = "Programs"
+url = "/programs"
+weight = 3
+
+[[main]]
+name = "Resources"
+url = "/resources"
+weight = 4
+
+[[main]]
+name = "Community"
+url = "/community"
+weight = 5
+
+[[main]]
+name = "Roadmap"
+url = "/roadmap"
+weight = 6
+
+[[main]]
+name = "Publications"
+url = "/publications"
+weight = 7
+
+[[main]]
+name = "Contact"
+url = "/contact"
+weight = 8
+
+[[footer]]
+name = "About Us"
+url = "/about"
+weight = 1
+
+[[footer]]
+name = "Programs"
+url = "/programs"
+weight = 2
+
+[[footer]]
+name = "Resources"
+url = "/resources"
+weight = 3
+
+[[footer]]
+name = "Publications"
+url = "/publications"
+weight = 4
+
+[[footer]]
+name = "Privacy Policy"
+url = "/privacy-policy"
+weight = 5
