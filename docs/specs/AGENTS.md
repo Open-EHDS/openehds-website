@@ -14,6 +14,8 @@ Ten plik jest mapą specyfikacji AI dla funkcjonalności projektu.
   - Indeks i zasady tworzenia specyfikacji.
 - `docs/specs/wdrozenie-hugoplate-openehds-website.md`
   - Specyfikacja wdrożenia szablonu Hugoplate jako jednorazowej bazy dla strony fundacji.
+- `docs/specs/automatyczny-router-root-na-podstawie-jezyka-przegladarki.md`
+  - Specyfikacja automatycznego przekierowania z root `/` na właściwą wersję językową na podstawie preferencji językowych przeglądarki.
 - `docs/specs/*.md`
   - Właściwe specyfikacje funkcjonalności (po jednym pliku na funkcjonalność).
 
