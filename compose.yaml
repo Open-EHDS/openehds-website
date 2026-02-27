@@ -1,0 +1,21 @@
+services:
+  hugo:
+    image: ghcr.io/gohugoio/hugo:v0.154.5
+    working_dir: /src
+    command:
+      - --environment
+      - production
+      - --destination
+      - /src/public
+    volumes:
+      - ./site:/src
+  web:
+    image: nginx:1.29-alpine
+    depends_on:
+      hugo:
+        condition: service_completed_successfully
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    volumes:
+      - ./site/public:/usr/share/nginx/html:ro

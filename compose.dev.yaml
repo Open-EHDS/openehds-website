@@ -1,0 +1,28 @@
+services:
+  hugo:
+    image: ghcr.io/gohugoio/hugo:v0.154.5
+    working_dir: /src
+    command:
+      - server
+      - --bind
+      - 0.0.0.0
+      - --baseURL
+      - http://localhost:8080/
+      - --buildDrafts
+      - --buildFuture
+      - --disableFastRender
+    volumes:
+      - ./site:/src
+  web:
+    image: nginx:1.29-alpine
+    entrypoint:
+      - nginx
+      - -g
+      - daemon off;
+    depends_on:
+      - hugo
+    ports:
+      - "8080:80"
+    restart: unless-stopped
+    volumes:
+      - ./docker/nginx/dev.conf:/etc/nginx/conf.d/default.conf:ro
