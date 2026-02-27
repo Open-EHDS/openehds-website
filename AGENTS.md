@@ -38,6 +38,8 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
 - W plikach `AGENTS.md` nie twórz odniesień do plików `README.md`.
 - W każdym folderze projektu powinien istnieć plik `README.md` opisujący zawartość folderu oraz informacje o podkatalogach.
 - Dodawaj krótkie komentarze tylko tam, gdzie logika nie jest oczywista.
+- W dokumentacji repo nie używaj bezwzględnych ścieżek z lokalnego komputera; stosuj ścieżki względne repo albo publiczne URL.
+- Gdy podajesz źródła komponentów lub zależności, używaj podlinkowanych adresów do stron upstream, z których można je pobrać.
 
 ## Komunikacja zmian
 
