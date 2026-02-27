@@ -18,6 +18,11 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
 - Preferuj czytelność i prostotę nad nadmierną złożonością.
 - Po zmianach uruchamiaj dostępne testy/lintery.
 - Gdy brak testów, opisz krótko jak zweryfikowano poprawność zmian.
+- Wszystkie zmiany najpierw wprowadzaj w lokalnym repo i testuj na lokalnym środowisku developerskim.
+- Dopiero po udanym lokalnym teście zgłaszaj gotowość do commitowania.
+- Commit wykonuj wyłącznie po wyraźnym sygnale człowieka.
+- Repozytorium na serwerze produkcyjnym aktualizuj wyłącznie po wyraźnym sygnale człowieka.
+- Za bieżące środowisko produkcyjne uznawaj wdrożenie dostępne pod `https://beta.openehds.org`.
 
 ## Dokumentacja
 
