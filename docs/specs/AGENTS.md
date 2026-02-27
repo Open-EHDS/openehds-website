@@ -21,6 +21,7 @@ Ten plik jest mapą specyfikacji AI dla funkcjonalności projektu.
 
 - Twórz jeden plik specyfikacji na jedną funkcjonalność.
 - Stosuj nazwy opisowe, np. `logowanie-uzytkownika.md`, `import-kontrahentow.md`.
+- Gdy człowiek prosi o opracowanie specyfikacji, przygotuj ją jako plik w `docs/specs/`, a nie tylko jako odpowiedź w czacie.
 - Każda specyfikacja powinna zawierać co najmniej:
   - cel biznesowy i zakres,
   - wymagania funkcjonalne,
