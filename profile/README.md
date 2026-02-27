@@ -1,12 +1,45 @@
-## Hi there 👋
+<table>
+  <tr>
+    <td width="180" valign="top" align="center">
+      <a href="https://github.com/Open-EHDS">
+        <img src="https://github.com/Open-EHDS.png" alt="Open-EHDS logo" width="140" />
+      </a>
+      <br />
+      <sub><strong>Open-EHDS</strong></sub>
+    </td>
+    <td valign="top">
+      <h1>Open EHDS Foundation</h1>
+      <p>
+        Open-EHDS brings together open collaboration around practical health data
+        infrastructure and interoperability.
+      </p>
+      <p>
+        This organization space highlights the mission, active workstreams, and
+        the main ways to follow or contribute.
+      </p>
 
-<!--
+      <h2>Mission</h2>
+      <p>
+        Build and support open foundations for trustworthy, interoperable, and
+        reusable health data solutions.
+      </p>
 
-**Here are some ideas to get you started:**
+      <h2>Projects</h2>
+      <p>
+        Use this section to present key repositories, initiatives, and current
+        implementation tracks.
+      </p>
 
-🙋‍♀️ A short introduction - what is your organization all about?
-🌈 Contribution guidelines - how can the community get involved?
-👩‍💻 Useful resources - where can the community find your docs? Is there anything else the community should know?
-🍿 Fun facts - what does your team eat for breakfast?
-🧙 Remember, you can do mighty things with the power of [Markdown](https://docs.github.com/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
--->
+      <h2>Community</h2>
+      <p>
+        Use this section for contributor guidance, partnerships, discussions, and
+        other collaboration entry points.
+      </p>
+
+      <h2>Links</h2>
+      <p>
+        Add the main website, documentation, roadmap, and contact channels here.
+      </p>
+    </td>
+  </tr>
+</table>
