@@ -41,6 +41,12 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
   - dlaczego,
   - jak to zweryfikowano.
 
+## Licencje i oznaczenia
+
+- Zachowuj w kodzie, repozytorium i dokumentacji tylko te informacje licencyjne i noty, które są wymagane przez licencje użytego oprogramowania.
+- Na froncie strony nie dodawaj informacji o pochodzeniu użytych rozwiązań, jeśli dana licencja nie wymaga ich wyraźnie w interfejsie użytkownika.
+- Spełniaj wymogi licencyjne bez nadmiarowego brandingu lub zbędnych oznaczeń w UI.
+
 ## Kolejność pracy
 
 - Domyślnie pracuj w kolejności:
