@@ -12,6 +12,8 @@ Ten plik jest mapą specyfikacji AI dla funkcjonalności projektu.
 
 - `docs/specs/AGENTS.md`
   - Indeks i zasady tworzenia specyfikacji.
+- `docs/specs/wdrozenie-hugoplate-openehds-website.md`
+  - Specyfikacja wdrożenia szablonu Hugoplate jako jednorazowej bazy dla strony fundacji.
 - `docs/specs/*.md`
   - Właściwe specyfikacje funkcjonalności (po jednym pliku na funkcjonalność).
 
@@ -27,4 +29,3 @@ Ten plik jest mapą specyfikacji AI dla funkcjonalności projektu.
   - wpływ na istniejące elementy systemu.
 - Jeśli specyfikacja zastępuje starszą wersję, dodaj sekcję "Historia zmian".
 - Po dodaniu nowego pliku dopisz go do sekcji "Mapa plików" w tym dokumencie.
-
