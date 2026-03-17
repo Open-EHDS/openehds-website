@@ -17,4 +17,4 @@ social:
     link: https://www.linkedin.com
 ---
 
-Anna odpowiada za to, aby model współpracy byl zrozumiały dla nowych contributorów i partnerów.
+Anna odpowiada za to, aby model współpracy był zrozumiały dla nowych contributorów i partnerów.

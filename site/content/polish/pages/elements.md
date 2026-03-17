@@ -1,17 +1,17 @@
 ---
 title: "Przegląd toolkitu"
 meta_title: "Przegląd toolkitu"
-description: "Strona pokazująca, jak fundacja może publikowac bogatsże materiały techniczne."
+description: "Strona pokazująca, jak fundacja może publikować bogatsze materiały techniczne."
 draft: false
 ---
 
 {{< toc >}}
 
-Ta strona celowo zachowuje bardziej rozbudowane mechaniki motywu, ale jest opisana jako przeglad przyszłych materiałów wdrożeniowych fundacji.
+Ta strona celowo zachowuje bardziej rozbudowane mechaniki motywu, ale jest opisana jako przegląd przyszłych materiałów wdrożeniowych fundacji.
 
 ## Co demonstruje ta strona
 
-Pokazuje, jak można publikowac uporządkowane wskazówki, checklisty i noty techniczne bez dokładania osobnego CMS-a.
+Pokazuje, jak można publikować uporządkowane wskazówki, checklisty i noty techniczne bez dokładania osobnego CMS-a.
 
 ## Przykładowa notatka
 
@@ -22,11 +22,11 @@ To placeholder dla ważnej informacji wdrożeniowej, ostrzeżenia lub noty relea
 ## Przykładowa checklista
 
 1. Opublikuj zakres software.
-2. Dodaj ograniczeńia wdrożeniowe.
+2. Dodaj ograniczenia wdrożeniowe.
 3. Podlinkuj repozytorium.
 4. Dodaj status release i wskazówki adopcyjne.
 
-## Przykladowe zakładki
+## Przykładowe zakładki
 
 {{< tabs >}}
 {{< tab "Software" >}}

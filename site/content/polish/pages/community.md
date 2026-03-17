@@ -1,29 +1,29 @@
 ---
 title: "Społeczność"
 meta_title: "Społeczność"
-description: "Neutralna przestrzen współpracy interesariuszy wdrażających secondary use w EHDS."
+description: "Neutralna przestrzeń współpracy interesariuszy wdrażających secondary use w EHDS."
 draft: false
 ---
 
-Sekcja Społeczność to publiczny punkt wejśćia dla interesariuszy, ktorzy chca współtworzyć praktyczne i godne zaufania wdrożenie EHDS.
+Sekcja Społeczność to publiczny punkt wejścia dla interesariuszy, którzy chcą współtworzyć praktyczne i godne zaufania wdrożenie EHDS.
 
 ## Kto uczestniczy
 
 * instytucje publiczne i regulatorzy
-* organiżacje pacjenckie i strona społeczna
+* organizacje pacjenckie i strona społeczna
 * naukowcy i eksperci domenowi
 * dostawcy technologii i zespoły wdrożeniowe
 * maintainerzy i contributorzy open source
 
 ## Model współpracy
 
-OpenEHDS jest projektowane jako neutralna przestrzen dialogu i współtworzenia.
+OpenEHDS jest projektowane jako neutralna przestrzeń dialogu i współtworzenia.
 
 * otwarte dyskusje o kompromisach wdrożeniowych
-* warsztaty wokół wzorcow architektur referencyjnych
+* warsztaty wokół wzorców architektur referencyjnych
 * przejrzyste procesy kontrybucji i publiczna dokumentacja
-* wspolpraca wspierajaca interoperacyjność międzysektorowa i międzypaństwowa
+* współpraca wspierająca interoperacyjność międzysektorową i międzypaństwową
 
 ## Dlaczego to ważne
 
-Bez wspolnych i otwartych komponentów wdrażanie EHDS grozi fragmentacją, duplikowaniem prac i spadkiem zaufania. Wspolpraca społecznościowa jest kluczowa, aby nie budowac podobnych rozwiązań w izolacji.
+Bez wspólnych i otwartych komponentów wdrażanie EHDS grozi fragmentacją, duplikowaniem prac i spadkiem zaufania. Współpraca społecznościowa jest kluczowa, aby nie budować podobnych rozwiązań w izolacji.

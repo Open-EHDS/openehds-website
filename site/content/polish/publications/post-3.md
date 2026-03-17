@@ -12,8 +12,8 @@ draft: false
 
 Contributor powinien szybko zrozumieć, czym zajmuje się fundacja, gdzie żyje software, co jest gotowe i gdzie pomoc jest najbardziej potrzebna.
 
-## Lepsże pierwsże wrazenie
+## Lepsze pierwsze wrażenie
 
-Dlatego strona ma widoczna sekcję społeczności, publikacje oraz jasna ścieżkę do organiżacji GitHub.
+Dlatego strona ma widoczną sekcję społeczności, publikacje oraz jasną ścieżkę do organizacji GitHub.
 
-Taki układ ogranicza koszt tłumaczenia projektu jeszcże przed pierwszą rozmówa lub pierwszym pull requestem.
+Taki układ ogranicza koszt tłumaczenia projektu jeszcze przed pierwszą rozmową lub pierwszym pull requestem.

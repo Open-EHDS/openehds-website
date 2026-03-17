@@ -17,4 +17,4 @@ social:
     link: https://www.linkedin.com
 ---
 
-Piotr odpowiada za spójność techniczna inicjatywy, od komponentów software po publiczne opisy modelu wdrożeniowego.
+Piotr odpowiada za spójność techniczną inicjatywy, od komponentów software po publiczne opisy modelu wdrożeniowego.

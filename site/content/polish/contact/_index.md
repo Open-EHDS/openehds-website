@@ -1,7 +1,7 @@
 ---
-title: "Contact"
+title: "Kontakt"
 meta_title: "Kontakt z OpenEHDS"
-description: "Punkt kontaktu dla instytucji i interesariuszy dolaczajacych do współpracy OpenEHDS."
+description: "Punkt kontaktu dla instytucji i interesariuszy dołączających do współpracy OpenEHDS."
 layout: "contact"
 draft: false
 ---

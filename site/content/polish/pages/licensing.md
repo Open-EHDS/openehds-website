@@ -10,27 +10,27 @@ Ta strona zbiera podstawowe informacje o licencjach dotyczących publicznej stro
 
 ## Zakres
 
-W serwisię występują trzy różne grupy materiałów:
+W serwisie występują trzy różne grupy materiałów:
 
 1. kod źródłowy, szablony i konfiguracja techniczna
 2. komponenty i biblioteki zewnętrzne
-3. treści redakcyjne publikowane przez fundacje
+3. treści redakcyjne publikowane przez fundację
 
-Te grupy nie są objete jedna wspolna licencja.
+Te grupy nie są objęte jedną wspólną licencją.
 
 ## Komponenty zewnętrzne
 
-Strona korzysta z zewnętrznych komponentów open source, które zachowuja swoje licencje upstream.
+Strona korzysta z zewnętrznych komponentów open source, które zachowują swoje licencje upstream.
 
-Główne przykłady aktualnie używane w tym serwisię:
+Główne przykłady aktualnie używane w tym serwisie:
 
 * [Hugoplate](https://github.com/zeon-studio/hugoplate) - MIT
 * [Hugo Modules od GetHugoThemes](https://github.com/gethugothemes/hugo-modules) - upstream MIT
 * [Hugo](https://github.com/gohugoio/hugo) - Apache-2.0
 * [Swiper](https://github.com/nolimits4web/swiper) - MIT
-* [Font Awesome](https://fontawesome.com/download) - licencja zależy od typu zasobu i warunkow pakietu upstream
+* [Font Awesome](https://fontawesome.com/download) - licencja zależy od typu zasobu i warunków pakietu upstream
 
-Jesli komponent upstream zawiera własną licencje, notę albo wymogi atrybucji, obowiązują warunki tego komponentu.
+Jeśli komponent upstream zawiera własną licencję, notę albo wymogi atrybucji, obowiązują warunki tego komponentu.
 
 ## Treści redakcyjne fundacji
 
@@ -44,20 +44,20 @@ Rekomendowany format atrybucji:
 
 * `Źródło: OpenEHDS Foundation, openehds.org`
 
-## Wylaczenia
+## Wyłączenia
 
 Licencja treści nie obejmuje automatycznie:
 
 * logotypów OpenEHDS
 * nazwy OpenEHDS i oznaczeń marki
 * znaków towarowych
-* materiałów osób trzecich, jezeli obowiązują je odrębne warunki
+* materiałów osób trzecich, jeżeli obowiązują je odrębne warunki
 
-Te elementy pozostaja objete swoim własnym statusem prawnym, o ile wyraźnie nie wskazano inaczej.
+Te elementy pozostają objęte swoim własnym statusem prawnym, o ile wyraźnie nie wskazano inaczej.
 
-## Odesłania do zrodel
+## Odesłania do źródeł
 
-Pełniejsże informacje w repozytorium:
+Pełniejsze informacje w repozytorium:
 
 * [Zestawienie komponentów zewnętrznych](https://github.com/Open-EHDS/openehds-website/blob/main/THIRD_PARTY_NOTICES.md)
 * [Licencja treści redakcyjnych](https://github.com/Open-EHDS/openehds-website/blob/main/LICENSE-content.md)

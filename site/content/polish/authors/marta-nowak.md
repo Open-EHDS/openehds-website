@@ -17,4 +17,4 @@ social:
     link: https://www.linkedin.com
 ---
 
-Marta koordynuje partnerstwa, gotowość launchowa i zewnętrzną komunikację fundacji.
+Marta koordynuje partnerstwa, gotowość launchową i zewnętrzną komunikację fundacji.
