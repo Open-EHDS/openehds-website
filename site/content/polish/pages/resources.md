@@ -1,23 +1,32 @@
 ---
 title: "Zasoby"
 meta_title: "Zasoby"
-description: "Biblioteka placeholderow dla not technicznych, przewodnikow i kontekstu software."
+description: "Hub wiedzy OpenEHDS dla architektury, polityk i praktycznej adopcji EHDS."
 draft: false
 ---
 
-Ta strona jest uporzadkowanym hubem wiedzy fundacji.
+Ta strona jest hubem wiedzy OpenEHDS wspierającym praktyczne wdrażanie EHDS.
 
-## Planowane typy materialow
+## Zasoby architektoniczne i techniczne
 
-* wyjasnienia architektoniczne
-* noty kontekstowe dla repozytoriow
-* przewodniki wdrozeniowe
-* prezentacje launchowe i materialy dla partnerow
-* skroty odsylajace do dluzszych publikacji
+* wyjaśnienia architektury kontrolowanej warstwy mediacji danych
+* diagramy referencyjne dla zestawiania zbiorów świadomego permitow
+* noty implementacyjne dla modułów egzekwowania polityk
+* wzorce integracji z secure processing environments
+* materiały o audycie, logowaniu, lineage, TTL i kontrolowanym usuwaniu
 
-## Placeholdery GitHub
+## Zasoby polityk i governance
 
-* Organizacja: [Open-EHDS na GitHub](https://github.com/Open-EHDS)
-* Placeholder repozytorium: implementation-core (URL do uzupelnienia)
-* Placeholder repozytorium: interoperability-toolkit (URL do uzupelnienia)
-* Placeholder repozytorium: deployment-reference (URL do uzupelnienia)
+* wskazówki przekładania ograniczeń data permit na kontrole techniczne
+* praktyczne opracowania dla ograniczeńia celu, opt-out i wyjątków prawnych
+* dokumentacja governance dla przejrzystej i audytowalnej operacyjności
+
+## Zasoby adopcyjne
+
+* materiały onboardingowe dla instytucji, regulatorów i partnerów
+* checklisty implementacyjne dla adaptacji krajowej
+* zasoby edukacyjne ograniczajace lukę wiedzy wokół EHDS
+
+## Referencje open source
+
+* Organiżacja: [Open-EHDS na GitHub](https://github.com/Open-EHDS)

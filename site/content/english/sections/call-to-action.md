@@ -1,11 +1,11 @@
 ---
 enable: true
-title: "Ready to shape the public launch?"
+title: "Join the neutral implementation dialogue"
 image: "/images/call-to-action.png"
-description: "This section is the immediate conversion point for partners, institutions, and contributors who want to follow or influence the next delivery cycle."
+description: "OpenEHDS invites institutions, regulators, patient organizations, researchers, and technology teams to co-create reusable, auditable EHDS components for secondary use."
 button:
   enable: true
-  label: "Contact the Foundation"
+  label: "Contact OpenEHDS"
   link: "/en/contact"
 
 build:

@@ -1,7 +1,7 @@
 ---
-title: "Publiczna roadmapa buduje zaufanie jeszcze przed pierwszym release"
+title: "Publiczna roadmapa buduje zaufanie jeszcże przed pierwszym release"
 meta_title: ""
-description: "Placeholderowa notatka o tym, dlaczego roadmapa powinna byc widoczna publicznie."
+description: "Placeholderowa notatka o tym, dlaczego roadmapa powinna być widoczna publicznie."
 date: 2026-02-10T05:00:00Z
 image: "/images/image-placeholder.png"
 categories: ["Roadmapa", "Governance"]
@@ -10,10 +10,10 @@ tags: ["roadmap", "planning", "trust"]
 draft: false
 ---
 
-Ludzie nie potrzebuja idealnej roadmapy, aby zaufac projektowi. Potrzebuja roadmapy wiarygodnej, pokazujacej kolejnosc, scope i aktualny fokus.
+Ludzie nie potrzebują idealnej roadmapy, aby zaufać projektowi. Potrzebuja roadmapy wiarygodnej, pokazującej kolejność, scope i aktualny fokus.
 
 ## Co powinna dawac publiczna roadmapa
 
-Powinna pokazywac, gdzie fundacja skupia wysilek teraz, co jest nastepne i jak partnerzy moga ustawic swoja prace wobec kolejnych okien wdrozeniowych.
+Powinna pokazywac, gdzie fundacja skupia wysiłek teraz, co jest nastepne i jak partnerzy moga ustawic swoją prace wobec kolejnych okien wdrożeniowych.
 
-Taka widocznosc ulatwia wczesna wspolprace i zmniejsza niepewnosc przed pierwszym wiekszym wydaniem.
+Taka widoczność ułatwia wczesną wspolprace i zmniejsza niepewność przed pierwszym większym wydaniem.

@@ -1,47 +1,47 @@
 ---
-title: "Przeglad toolkitu"
-meta_title: "Przeglad toolkitu"
-description: "Strona pokazujaca, jak fundacja moze publikowac bogatsze materialy techniczne."
+title: "Przegląd toolkitu"
+meta_title: "Przegląd toolkitu"
+description: "Strona pokazująca, jak fundacja może publikowac bogatsże materiały techniczne."
 draft: false
 ---
 
 {{< toc >}}
 
-Ta strona celowo zachowuje bardziej rozbudowane mechaniki motywu, ale jest opisana jako przeglad przyszlych materialow wdrozeniowych fundacji.
+Ta strona celowo zachowuje bardziej rozbudowane mechaniki motywu, ale jest opisana jako przeglad przyszłych materiałów wdrożeniowych fundacji.
 
 ## Co demonstruje ta strona
 
-Pokazuje, jak mozna publikowac uporzadkowane wskazowki, checklisty i noty techniczne bez dokladania osobnego CMS-a.
+Pokazuje, jak można publikowac uporządkowane wskazówki, checklisty i noty techniczne bez dokładania osobnego CMS-a.
 
-## Przykladowa notatka
+## Przykładowa notatka
 
 {{< notice "info" >}}
-To placeholder dla waznej informacji wdrozeniowej, ostrzezenia lub noty release.
+To placeholder dla ważnej informacji wdrożeniowej, ostrzeżenia lub noty release.
 {{< /notice >}}
 
-## Przykladowa checklista
+## Przykładowa checklista
 
 1. Opublikuj zakres software.
-2. Dodaj ograniczenia wdrozeniowe.
+2. Dodaj ograniczeńia wdrożeniowe.
 3. Podlinkuj repozytorium.
-4. Dodaj status release i wskazowki adopcyjne.
+4. Dodaj status release i wskazówki adopcyjne.
 
-## Przykladowe zakladki
+## Przykladowe zakładki
 
 {{< tabs >}}
 {{< tab "Software" >}}
 
-Tutaj moze pojawic sie opis komponentu software, celu wydania i kontekstu repozytorium.
+Tutaj może pojawić się opis komponentu software, celu wydania i kontekstu repozytorium.
 
 {{< /tab >}}
 {{< tab "Guidance" >}}
 
-To miejsce na noty wdrozeniowe, checklisty i doprecyzowanie zalozen operacyjnych.
+To miejsce na noty wdrożeniowe, checklisty i doprecyzowanie założeń operacyjnych.
 
 {{< /tab >}}
 {{< tab "Adoption" >}}
 
-Tutaj moze zyc tresc skierowana do partnerow, w tym warunki startu i kolejne kroki.
+Tutaj może żyć treść skierowana do partnerów, w tym warunki startu i kolejne kroki.
 
 {{< /tab >}}
 {{< /tabs >}}

@@ -1,33 +1,72 @@
 ---
 title: "About Us"
-meta_title: "About OpenEHDS Foundation"
-description: "Mission, operating model, and team structure for the OpenEHDS Foundation."
+meta_title: "About OpenEHDS"
+description: "Mission, scope, and governance of OpenEHDS for EHDS secondary use."
 image: "/images/image-placeholder.png"
 layout: "about"
 draft: false
 ---
 
-OpenEHDS Foundation is being shaped as a practical home for EHDS-related open source software. The goal is to make reusable software, implementation assets, and public-facing guidance easier to discover, evaluate, and adopt.
+OpenEHDS is being developed as a neutral, non-commercial foundation initiative focused on turning EHDS from a legal framework into practical, reusable technical reality.
 
-## What the foundation publishes
+## Mission
 
-* open source software for EHDS-aligned services
-* implementation patterns and delivery assets
-* technical publications and practical notes
-* roadmap signals for partners and contributors
-* a clear public entry point to the GitHub organization
+OpenEHDS is built on the belief that EHDS infrastructure must be:
 
-## Core Team
+* interoperable by design
+* privacy-preserving by default
+* operationally realistic
+* publicly understandable
 
-The core team owns the public roadmap, release framing, and stewardship of the most important software and implementation assets. In the first release of the site, this section uses placeholder profiles that can later be replaced with final bios.
+The initiative also creates a neutral space for dialogue between public institutions, regulators, patient organizations, researchers, and technology stakeholders through open discussion, workshops, and co-creation of reference architectures.
 
-## Contributors
+## Scope
 
-Contributors include implementation partners, subject matter experts, maintainers, and collaborators helping shape the software, documentation, and adoption model.
+OpenEHDS focuses primarily on EHDS secondary use of electronic health data, where regulatory, technical, and organizational complexity is highest.
+
+The scope includes the full secondary-use lifecycle:
+
+* dataset preparation for approved secondary-use cases
+* controlled access based on data permits
+* operation in secure processing environments
+* auditable and transparent lifecycle governance
+
+## Controlled data mediation layer
+
+EHDS does not create unrestricted data federation. It establishes controlled, permit-based access that is limited by purpose, time, and auditable governance.
+
+OpenEHDS explicitly addresses this reality as a controlled data mediation layer that:
+
+* is not a central data lake
+* is not a permanent data repository
+* is not a commercial data platform
+
+It is a temporary and controlled processing layer used to assemble permit-compliant datasets, enforce policies, and ensure full traceability.
+
+## What OpenEHDS builds
+
+Open reference components and architecture patterns, including:
+
+* permit-aware dataset assembly engines
+* policy enforcement modules for purpose limitation, opt-out, and legal exceptions
+* connectors across health data holders, health data access bodies, and secure processing environments
+* audit, logging, and data lineage capabilities
+* temporary-data lifecycle mechanisms, including TTL and controlled deletion
+* interoperability mappings and transformations aligned with EHDS, FHIR, and future implementing acts
+
+## What OpenEHDS does not do
+
+* does not act as a health data access body
+* does not host or monetize medical data
+* does not operate secure processing environments
+* does not replace national or EU governance institutions
+
+OpenEHDS is an enabler, not a system operator.
+
+## Governance and trust
+
+OpenEHDS is structured around transparent governance, open contribution processes, public documentation, and a clear separation from commercial exploitation of outcomes.
 
 ## Open source presence
 
 * GitHub organization: [Open-EHDS on GitHub](https://github.com/Open-EHDS)
-* Repository placeholder: implementation-core (URL to be confirmed)
-* Repository placeholder: interoperability-toolkit (URL to be confirmed)
-* Repository placeholder: deployment-reference (URL to be confirmed)

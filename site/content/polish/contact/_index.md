@@ -1,9 +1,9 @@
 ---
 title: "Contact"
-meta_title: "Kontakt z OpenEHDS Foundation"
-description: "Publiczny punkt kontaktu dla partnerow, contributorow i instytucji."
+meta_title: "Kontakt z OpenEHDS"
+description: "Punkt kontaktu dla instytucji i interesariuszy dolaczajacych do współpracy OpenEHDS."
 layout: "contact"
 draft: false
 ---
 
-Ta strona jest glownym punktem kontaktu dla rozmow partnerskich, onboardingu contributorow i pytan o roadmapa oprogramowania. Aktualny formularz jest placeholderem i moze zostac podlaczony do docelowego procesu intake pozniej.
+Ta strona służy do rozpoczęcia rozmów o współpracy, implementacjach referencyjnych i udziale w dialogu OpenEHDS wokół secondary use w EHDS. Aktualny formularz jest placeholderem i może zostać podłączony do docelowego procesu intake później.

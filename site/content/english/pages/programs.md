@@ -1,20 +1,44 @@
 ---
 title: "Programs"
 meta_title: "Programs"
-description: "The working structure for software, implementation assets, and foundation delivery."
+description: "Program tracks for building reusable OpenEHDS components for EHDS secondary use."
 draft: false
 ---
 
-The Programs section explains where the foundation is concentrating effort. It is intentionally structured like a real operating model, even while some details remain placeholder content.
+The Programs section defines where OpenEHDS concentrates delivery effort for EHDS secondary use.
 
-## Software Core
+## Permit-aware dataset assembly
 
-This track is where reusable EHDS-related software is shaped, documented, and prepared for public consumption.
+This track covers software that prepares temporary, permit-compliant datasets for approved secondary-use purposes.
 
-## Implementation Assets
+* data permit interpretation and machine-readable constraints
+* dataset assembly pipelines scoped by permit and legal basis
+* lifecycle controls for temporary data products
 
-This track groups templates, technical notes, operational patterns, and supporting material that make the software easier to adopt.
+## Policy and compliance enforcement
 
-## Adoption and Partner Enablement
+This track covers modules that enforce purpose limitation and legal constraints during access and processing.
 
-This is the public-facing layer for implementation partners, public institutions, and delivery teams who need context before committing to deeper collaboration.
+* opt-out and exception handling
+* rule enforcement for access boundaries
+* auditable decision logs for policy application
+
+## Secure processing and traceability
+
+This track covers integration patterns for secure processing environments and full accountability.
+
+* connectors between data holders, access bodies, and secure environments
+* audit, logging, and lineage components
+* controlled deletion and TTL mechanisms
+
+## Interoperability and national adaptation
+
+This track covers reusable mappings and transformation patterns aligned with EHDS and FHIR.
+
+* interoperability profiles and transformation logic
+* implementation patterns adaptable to national deployment models
+* reference architecture artifacts for public procurement use
+
+## Program boundary
+
+OpenEHDS develops enabling components and reference architectures. It does not operate as a health data access body, data host, or secure processing operator.

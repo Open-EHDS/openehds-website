@@ -2,7 +2,7 @@
 title: Marta Nowak
 email: partnerships@openehds.org
 image: "/images/avatar.png"
-description: Dyrektorka wykonawcza odpowiadajaca za partnerstwa i przygotowanie publicznego launchu.
+description: Dyrektorka wykonawcza odpowiadająca za partnerstwa i przygotowanie publicznego launchu.
 social:
   - name: github
     icon: fa-brands fa-github
@@ -17,4 +17,4 @@ social:
     link: https://www.linkedin.com
 ---
 
-Marta koordynuje partnerstwa, gotowosc launchowa i zewnetrzna komunikacje fundacji.
+Marta koordynuje partnerstwa, gotowość launchowa i zewnętrzną komunikację fundacji.

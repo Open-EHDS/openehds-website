@@ -1,51 +1,52 @@
 ---
 banner:
-  title: "Otwarte oprogramowanie i materialy wdrozeniowe dla European Health Data Space"
-  content: "OpenEHDS Foundation rozwija, porzadkuje i publikuje oprogramowanie open source dla uslug zgodnych z EHDS. Publiczna strona ma od razu wygladac jak dojrzala platforma fundacji, a nie jak tymczasowy landing page."
+  title: "Otwarta i audytowalna infrastruktura dla secondary use w EHDS"
+  content: "OpenEHDS to neutralna, niekomercyjna inicjatywa fundacyjna tworząca interoperacyjne, domyślnie prywatnościowe i operacyjnie realistyczne komponenty dla EHDS. Koncentrujemy się na tym, by złożone procesy secondary use były zrozumiałe publicznie i praktyczne wdrożeniowo."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Zobacz programy"
-    link: "/pl/programs"
+    label: "Zobacz prógramy"
+    link: "/pl/prógrams"
 
 features:
-  - title: "Kompletna publiczna struktura fundacji od pierwszego dnia"
+  - title: "Misja osadzona w realiach EHDS"
     image: "/images/service-1.png"
-    content: "Architektura strony zostala swiadomie ulozona tak, aby od razu pokazywala misje, programy, zasoby, publikacje i sposob wejscia do projektu."
+    content: "OpenEHDS opiera się na prostym założeniu: infrastruktura EHDS musi być interoperacyjna z założeńia, domyślnie chroniaca prywatność, realistyczna operacyjnie i zrozumiala publicznie."
     bulletpoints:
-      - "silna strona glowna i jasne wejscie dla partnerow oraz instytucji"
-      - "oddzielne sekcje dla programow, zasobow, roadmapy i publikacji"
-      - "gotowa przestrzen dla oprogramowania open source i materialow wdrozeniowych"
-      - "wyszukiwanie, taksonomie i mechanika publikacji juz dzialaja"
-      - "uklad przygotowany pod wersje angielska i polska"
-      - "**solidna baza** do dalszej przebudowy bez zaleznosci od oryginalnego szablonu"
+      - "Model neutralnej i niekomercyjnej fundacji"
+      - "Wspolpraca międzysektorowa i międzynarodowa"
+      - "Praktyczny pomost między ramami prawnymi a implementacja techniczna"
+      - "Wspoltworzenie z udzialem instytucji, regulatorów, organiżacji pacjenckich, nauki i sektóra technologicznego"
     button:
       enable: true
-      label: "Przejdz do zasobow"
+      label: "O fundacji"
+      link: "/pl/about"
+
+  - title: "Koncentracja na secondary use od poczatku do konca"
+    image: "/images/service-2.png"
+    content: "Skupiamy się na secondary use danych medycznych w EHDS, gdzie złożoność regulacyjna, techniczna i organiżacyjna jest największa. Zakres obejmuje cały cykl życia kontrolowanego dostępu i przetwarzania."
+    bulletpoints:
+      - "Przygotowanie zbiorów danych do wtórnych zastosowań"
+      - "Kontrolowany dostęp oparty o data permit ograniczony czasowo i celowo"
+      - "Działanie w secure processing environments"
+      - "Audytowalność, przejrzystosc i zarządzanie cyklem życia danych"
+      - "Egzekwowanie zasad opt-out, ograniczeńia celu i wyjątków prawnych"
+    button:
+      enable: true
+      label: "Zobacz zakres"
       link: "/pl/resources"
 
-  - title: "Uklad podporzadkowany praktycznemu wdrazaniu"
-    image: "/images/service-2.png"
-    content: "Fundacja jest przedstawiona przez pryzmat tego, co realnie pomaga wdrazac rozwiazania: programow, materialow, publikacji i publicznego modelu wspolpracy."
-    bulletpoints:
-      - "programy pokazuja, gdzie powstaje oprogramowanie i aktywa wdrozeniowe"
-      - "zasoby przygotowuja miejsce na przewodniki, noty techniczne i kontekst repozytoriow"
-      - "spolecznosc wyjasnia, jak wejsc do projektu i gdzie dolaczyc"
-    button:
-      enable: true
-      label: "Przeczytaj roadmape"
-      link: "/pl/roadmap"
-
-  - title: "Gotowe na widocznosc open source"
+  - title: "Otwarte komponenty, nie operator danych"
     image: "/images/service-3.png"
-    content: "Strona zawiera miejsce na linki do organizacji GitHub, repozytoriow i materialow fundacji, nawet jesli czesc adresow jest na razie placeholderem."
+    content: "EHDS wymaga kontrolowanej warstwy mediacji danych. OpenEHDS czyni te warstwę przejrzystą i reużywalna przez otwarte komponenty referencyjne, jednoczesnie nie pełniąc roli operatora danych ani organu permitowego."
     bulletpoints:
-      - "widoczna sciezka do organizacji GitHub"
-      - "placeholdery pod konkretne repozytoria i projekty"
-      - "publikacje gotowe do rozbudowy o artykuly, materialy i aktualnosci"
-      - "szablon traktowany tylko jako punkt startowy, a nie ograniczenie"
+      - "Silniki zestawiania zbiorów świadome data permit"
+      - "Moduły egzekwowania polityk dostępu i celu przetwarzania"
+      - "Konektory między data holderami, access bodies i secure environments"
+      - "Mechaniżmy audytu, logowania, lineage, TTL i kontrolowanego usuwania"
+      - "Brak roli health data access body, operatora SPE i platformy komercjalizacji danych"
     button:
       enable: true
-      label: "Przejdz do publikacji"
-      link: "/pl/publications"
+      label: "Przeczytaj roadmapę"
+      link: "/pl/roadmap"
 ---

@@ -2,7 +2,7 @@
 title: Anna Kowalczyk
 email: community@openehds.org
 image: "/images/avatar.png"
-description: Liderka spolecznosci i contributorow.
+description: Liderka społeczności i contributorów.
 social:
   - name: github
     icon: fa-brands fa-github
@@ -17,4 +17,4 @@ social:
     link: https://www.linkedin.com
 ---
 
-Anna odpowiada za to, aby model wspolpracy byl zrozumialy dla nowych contributorow i partnerow.
+Anna odpowiada za to, aby model współpracy byl zrozumiały dla nowych contributorów i partnerów.

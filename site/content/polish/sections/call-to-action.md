@@ -1,11 +1,11 @@
 ---
 enable: true
-title: "Gotowi, aby wspoltworzyc publiczny launch?"
+title: "Dołącz do neutralnego dialogu wdrożeniowego"
 image: "/images/call-to-action.png"
-description: "To jest glowny punkt konwersji dla partnerow, instytucji i contributorow, ktorzy chca wejsc do kolejnej fazy projektu."
+description: "OpenEHDS zaprasza instytucje, regulatorów, organiżacje pacjenckie, nauke i zespoły technologiczne do współtworzenia reużywalnych, audytowalnych komponentów EHDS dla secondary use."
 button:
   enable: true
-  label: "Skontaktuj sie z fundacja"
+  label: "Skontaktuj się z OpenEHDS"
   link: "/pl/contact"
 
 build:

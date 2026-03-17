@@ -1,19 +1,29 @@
 ---
 title: "Community"
 meta_title: "Community"
-description: "How contributors, maintainers, and partners can enter the project."
+description: "Neutral collaboration space for stakeholders shaping practical EHDS secondary use implementation."
 draft: false
 ---
 
-The Community page is the public entry point for people who want to follow, support, or contribute to the initiative.
+The Community section is the public entry point for stakeholders who want to shape practical and trustworthy EHDS implementation.
 
-## Who this is for
+## Who participates
 
-* software contributors
-* implementation partners
-* subject matter experts
-* institutions evaluating collaboration
+* public institutions and regulators
+* patient organizations and civil society
+* researchers and domain experts
+* technology providers and implementers
+* open source maintainers and contributors
 
-## What to expect
+## Collaboration model
 
-The first version is intentionally concise. It establishes the collaboration model now and can expand later with working groups, contributor pathways, and governance notes.
+OpenEHDS is designed as a neutral dialogue and co-creation space.
+
+* open discussions on implementation trade-offs
+* workshops around reference architecture patterns
+* transparent contribution processes and public documentation
+* cooperation that supports cross-border and cross-sector interoperability
+
+## Why this matters
+
+Without shared and open components, EHDS implementation risks fragmentation, duplicated effort, and reduced trust. Community collaboration is critical to avoid rebuilding similar solutions in isolation.

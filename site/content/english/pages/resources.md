@@ -1,23 +1,32 @@
 ---
 title: "Resources"
 meta_title: "Resources"
-description: "A placeholder library for technical notes, guides, and software context."
+description: "Resource hub for OpenEHDS architecture, policy implementation, and adoption guidance."
 draft: false
 ---
 
-This page is the foundation's structured resource hub.
+This page is the OpenEHDS knowledge hub supporting practical EHDS implementation.
 
-## Planned resource types
+## Architecture and technical resources
 
-* architectural explainers
-* repository context notes
-* implementation guidance
-* launch decks and partner briefs
-* summaries linking back to longer publications
+* explainers for controlled data mediation architecture
+* reference diagrams for permit-aware dataset assembly
+* implementation notes for policy enforcement modules
+* patterns for secure processing environment integration
+* audit, logging, lineage, TTL, and deletion design notes
 
-## GitHub placeholders
+## Policy and governance resources
+
+* guidance on translating data permit constraints into technical controls
+* practical references for purpose limitation, opt-out, and legal exceptions
+* governance documentation for transparent and auditable operations
+
+## Adoption resources
+
+* onboarding briefs for institutions, regulators, and partners
+* implementation checklists for national adaptation
+* educational materials that reduce EHDS knowledge gaps
+
+## Open source references
 
 * Organization: [Open-EHDS on GitHub](https://github.com/Open-EHDS)
-* Repository placeholder: implementation-core (URL to be confirmed)
-* Repository placeholder: interoperability-toolkit (URL to be confirmed)
-* Repository placeholder: deployment-reference (URL to be confirmed)

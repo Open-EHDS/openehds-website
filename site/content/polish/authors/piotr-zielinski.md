@@ -1,8 +1,8 @@
 ---
-title: Piotr Zielinski
+title: Piotr Zieliński
 email: architecture@openehds.org
 image: "/images/avatar.png"
-description: Glowny architekt odpowiedzialny za scope software i aktywa wdrozeniowe.
+description: Główny architekt odpowiedzialny za scope software i aktywa wdrożeniowe.
 social:
   - name: github
     icon: fa-brands fa-github
@@ -17,4 +17,4 @@ social:
     link: https://www.linkedin.com
 ---
 
-Piotr odpowiada za spojnosc techniczna inicjatywy, od komponentow software po publiczne opisy modelu wdrozeniowego.
+Piotr odpowiada za spójność techniczna inicjatywy, od komponentów software po publiczne opisy modelu wdrożeniowego.

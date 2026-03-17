@@ -1,51 +1,52 @@
 ---
 banner:
-  title: "Open software and implementation assets for the European Health Data Space"
-  content: "OpenEHDS Foundation develops, curates, and publishes open source software for EHDS-aligned services. The public website is structured as a launch-ready platform for partners, contributors, and institutions evaluating the initiative."
+  title: "Open, auditable infrastructure for EHDS secondary use"
+  content: "OpenEHDS is a neutral, non-commercial foundation initiative building interoperable, privacy-by-default, and operationally realistic components for EHDS. We focus on making complex secondary use workflows publicly understandable and practically deployable."
   image: "/images/banner.png"
   button:
     enable: true
-    label: "Explore the Programs"
+    label: "See the Programs"
     link: "/en/programs"
 
 features:
-  - title: "A complete public-facing foundation structure from day one"
+  - title: "Mission grounded in EHDS reality"
     image: "/images/service-1.png"
-    content: "The site is intentionally organized like a mature product ecosystem. It is designed to communicate mission, operating model, and entry points before every final content asset is ready."
+    content: "OpenEHDS works from a simple premise: EHDS needs infrastructure that is interoperable by design, privacy-preserving by default, operationally realistic, and publicly understandable."
     bulletpoints:
-      - "A strong homepage with clear direction for institutions and delivery partners"
-      - "Dedicated sections for programs, resources, roadmap, community, and publications"
-      - "A reusable structure for open source software, reference assets, and partner materials"
-      - "Search, taxonomy, and publication mechanics already wired into the site"
-      - "A bilingual architecture prepared for English and Polish audiences"
-      - "**A foundation-grade starting point** that can be reshaped without keeping compatibility with the original template"
+      - "Built as a neutral, non-commercial foundation model"
+      - "Designed to support cross-sector and cross-country collaboration"
+      - "Created as a practical bridge between legal frameworks and technical implementation"
+      - "Structured to support institutions, regulators, patient groups, researchers, and technology teams"
     button:
       enable: true
-      label: "See the Site Map"
+      label: "About the Foundation"
+      link: "/en/about"
+
+  - title: "Focused on secondary use end-to-end"
+    image: "/images/service-2.png"
+    content: "We focus on EHDS secondary use, where regulatory, technical, and organizational complexity is highest. The scope covers the full lifecycle of controlled data access and processing."
+    bulletpoints:
+      - "Preparing datasets for secondary use"
+      - "Controlled access based on time-bound and purpose-bound data permits"
+      - "Operation inside secure processing environments"
+      - "Auditability, transparency, and lifecycle governance"
+      - "Policy-aware handling of opt-out rules and legal exceptions"
+    button:
+      enable: true
+      label: "Explore Scope"
       link: "/en/resources"
 
-  - title: "Built around practical EHDS adoption"
-    image: "/images/service-2.png"
-    content: "The foundation is framed around implementation, not abstract advocacy. Every section of the site is meant to support adoption, governance, and discoverability of reusable software."
+  - title: "Open components, not a data operator"
+    image: "/images/service-3.png"
+    content: "EHDS requires a controlled data mediation layer. OpenEHDS makes this layer transparent and reusable through open reference components, while explicitly not acting as a data host or permit authority."
     bulletpoints:
-      - "Program pages describe where software and shared assets are being developed"
-      - "Resource pages prepare room for guides, technical briefs, and repository context"
-      - "Community pages explain how contributors and partners can participate"
+      - "Permit-aware dataset assembly engines"
+      - "Policy enforcement modules for purpose limitation and access constraints"
+      - "Connectors across data holders, access bodies, and secure environments"
+      - "Audit, logging, lineage, TTL, and controlled deletion mechanisms"
+      - "Not a health data access body, not a secure processing operator, not a commercial data platform"
     button:
       enable: true
       label: "Read the Roadmap"
       link: "/en/roadmap"
-
-  - title: "Prepared for open source visibility"
-    image: "/images/service-3.png"
-    content: "The website includes immediate placeholder space for GitHub organization links, project references, and foundation publications. That keeps the launch credible even before the repository set is finalized."
-    bulletpoints:
-      - "GitHub organization presence can be surfaced across navigation and content"
-      - "Repository placeholders can be upgraded into real project hubs later"
-      - "Publication entries can evolve into articles, updates, and technical materials"
-      - "The theme remains only a starting point: all code can be freely rewritten"
-    button:
-      enable: true
-      label: "Browse Publications"
-      link: "/en/publications"
 ---

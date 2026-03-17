@@ -1,3 +1,3 @@
 ---
-title: "Katalog osob"
+title: "Katalog osób"
 ---
