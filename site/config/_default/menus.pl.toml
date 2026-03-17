@@ -21,7 +21,7 @@ url = "/resources"
 weight = 4
 
 [[main]]
-name = "Spolecznosc"
+name = "Społeczność"
 url = "/community"
 weight = 5
 

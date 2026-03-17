@@ -32,10 +32,27 @@
       id="nav-menu"
       class="navbar-nav order-3 hidden lg:flex w-full pb-6 lg:order-1 lg:w-auto lg:space-x-2 lg:pb-0 xl:space-x-8">
       {{ $currentPage := . }}
+      {{ $pageURL := $currentPage.RelPermalink | relLangURL | replaceRE "/+$" "" }}
+      {{ if eq $pageURL "" }}{{ $pageURL = "/" }}{{ end }}
+      {{ $pageURLNoLang := $pageURL | replaceRE (print "^/" .Language.Lang) "" }}
+      {{ if eq $pageURLNoLang "" }}{{ $pageURLNoLang = "/" }}{{ end }}
       {{ range site.Menus.main }}
-        {{ $menuURL := .URL | relLangURL }}
-        {{ $pageURL:= $currentPage.RelPermalink | relLangURL }}
-        {{ $active := eq $menuURL $pageURL }}
+        {{ $menuURL := .URL | relLangURL | replaceRE "/+$" "" }}
+        {{ if eq $menuURL "" }}{{ $menuURL = "/" }}{{ end }}
+        {{ $menuURLNoLang := $menuURL | replaceRE (print "^/" $currentPage.Language.Lang) "" }}
+        {{ if eq $menuURLNoLang "" }}{{ $menuURLNoLang = "/" }}{{ end }}
+        {{ $active := or
+          (or
+            (eq $menuURL $pageURL)
+            (eq $menuURLNoLang $pageURL)
+            (eq $menuURL $pageURLNoLang)
+            (eq $menuURLNoLang $pageURLNoLang)
+            (and
+              (ne $menuURLNoLang "/")
+              (hasPrefix $pageURLNoLang (print $menuURLNoLang "/"))
+            )
+          )
+        }}
         {{ if .HasChildren }}
           <li class="nav-item nav-dropdown group relative">
             <input
@@ -44,27 +61,38 @@
               class="peer hidden lg:hidden" />
             <label
               for="submenu-{{ .Name | urlize }}"
-              class="nav-link {{ range .Children }}
-                {{ $childURL := .URL | relLangURL }}
-                {{ $active := eq $childURL $pageURL }}
-                {{ if $active }}active{{ end }}
-              {{ end }} inline-flex items-center">
+              {{ if $active }}
+                aria-current="page"
+              {{ end }}
+              class="nav-link {{ if $active }}active{{ end }} inline-flex items-center">
               {{ .Name }}
               <svg class="h-4 w-4 fill-current" viewBox="0 0 20 20">
                 <path
                   d="M9.293 12.95l.707.707L15.657 8l-1.414-1.414L10 10.828 5.757 6.586 4.343 8z" />
               </svg>
             </label>
-            <ul
+              <ul
               class="nav-dropdown-list hidden peer-checked:block lg:invisible lg:absolute lg:block lg:opacity-0 lg:group-hover:visible lg:group-hover:opacity-100">
               {{ range .Children }}
-                {{ $childURL := .URL | relLangURL }}
-                {{ $active := eq $childURL $pageURL }}
+                {{ $childURL := .URL | relLangURL | replaceRE "/+$" "" }}
+                {{ if eq $childURL "" }}{{ $childURL = "/" }}{{ end }}
+                {{ $childURLNoLang := $childURL | replaceRE (print "^/" $currentPage.Language.Lang) "" }}
+                {{ if eq $childURLNoLang "" }}{{ $childURLNoLang = "/" }}{{ end }}
+                {{ $active := or
+                  (or
+                    (eq $childURL $pageURL)
+                    (eq $childURLNoLang $pageURL)
+                    (eq $childURL $pageURLNoLang)
+                    (eq $childURLNoLang $pageURLNoLang)
+                    (and (ne $childURLNoLang "/") (hasPrefix $pageURLNoLang (print $childURLNoLang "/")))
+                  )
+                }}
                 <li class="nav-dropdown-item">
                   <a
-                    class="nav-dropdown-link {{ if $active }}
-                      active
-                    {{- end -}}"
+                    class="nav-dropdown-link {{ if $active }}active{{- end -}}"
+                    {{ if $active }}
+                      aria-current="page"
+                    {{ end }}
                     {{ if findRE `^http` .URL }}
                       target="_blank" rel="noopener"
                     {{ end }}
@@ -86,6 +114,9 @@
           <li class="nav-item">
             <a
               class="nav-link {{ if $active }}active{{- end -}}"
+              {{ if $active }}
+                aria-current="page"
+              {{ end }}
               {{ if findRE `^http` .URL }}
                 target="_blank" rel="noopener"
               {{ end }}
