@@ -25,6 +25,15 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
 - Repozytorium na serwerze produkcyjnym aktualizuj wyłącznie po wyraźnym sygnale człowieka.
 - Za bieżące środowisko produkcyjne uznawaj wdrożenie dostępne pod `https://beta.openehds.org`.
 
+## Uruchamianie środowisk
+
+- Środowisko developerskie uruchamiaj wyłącznie przez Docker Compose: `docker compose -f compose.dev.yaml up -d --build`.
+- Środowisko developerskie zatrzymuj przez: `docker compose -f compose.dev.yaml down`.
+- Wariant produkcyjny (lokalne odtworzenie konfiguracji prod) uruchamiaj przez: `docker compose -f compose.yaml up -d --build`.
+- Wariant produkcyjny zatrzymuj przez: `docker compose -f compose.yaml down`.
+- Nie uruchamiaj na hoście komend `npm install`, `npm run dev`, `hugo server` ani innych lokalnych instalacji zależności, chyba że człowiek wyraźnie o to poprosi.
+- „Lokalne testy” w tym repo oznaczają testy w kontenerach Compose, nie na hoście.
+
 ## Dokumentacja
 
 - Dla agenta źródłem prawdy są pliki `AGENTS.md`.
