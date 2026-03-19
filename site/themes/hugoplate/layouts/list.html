@@ -6,9 +6,10 @@
     <div class="container">
       <ul class="text-center">
         {{ range .RegularPages }}
+          {{ $pageURL := .RelPermalink | replaceRE `\.html/$` `.html` }}
           <li class="m-3">
             <a
-              href="{{ .RelPermalink }}"
+              href="{{ $pageURL }}"
               class="text-text-dark dark:text-darkmode-text-dark block text-xl">
               {{ .Title }}
             </a>

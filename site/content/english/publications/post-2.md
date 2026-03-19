@@ -1,19 +1,26 @@
 ---
-title: "The role of the bilingual gateway in the public launch"
+title: "Controlled data mediation layer: required, not optional"
+slug: "controlled-data-mediation-layer-required-not-optional"
 meta_title: ""
-description: "Why the root URL acts as a language gateway instead of serving one language directly."
+description: "Why EHDS formally requires a controlled data mediation layer."
 date: 2026-02-18T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Website", "Localization"]
+categories: ["Architecture", "EHDS"]
 author: "Marta Nowak"
-tags: ["language", "gateway", "ux"]
+tags: ["data-permit", "mediation-layer", "architecture"]
 draft: false
 ---
 
-The public root URL exists as a neutral gateway so both language versions can live in explicit subfolders without ambiguity.
+EHDS does not introduce unrestricted data federation. The model is based on access constrained by purpose, time, and data permit scope.
 
-## Why that matters
+This makes a controlled data mediation layer unavoidable.
 
-This approach keeps links predictable, gives both language spaces equal weight, and makes later automation or language detection easier to introduce.
+## What this layer is needed for
 
-For a public foundation site, clarity at the root is often more valuable than clever redirection.
+* assembling permit-compliant datasets
+* enforcing opt-out and legal exceptions
+* pseudonymization, anonymization, filtering, and aggregation
+* complete logging and auditing
+* controlled data deletion after permit expiry
+
+This layer is not a central data lake and not a permanent repository. Its role is technically constrained and auditable.

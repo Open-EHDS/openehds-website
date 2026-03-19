@@ -1,19 +1,23 @@
 ---
-title: "A roadmap page builds confidence before the first public release"
+title: "Why OpenEHDS is needed now"
+slug: "why-openehds-is-needed-now"
 meta_title: ""
-description: "A placeholder note on why the roadmap belongs in the public navigation."
+description: "What EHDS implementation risks without shared and open components."
 date: 2026-02-10T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Roadmap", "Governance"]
+categories: ["EHDS", "Strategy"]
 author: "Marta Nowak"
-tags: ["roadmap", "planning", "trust"]
+tags: ["fragmentation", "implementation", "trust"]
 draft: false
 ---
 
-People do not need a perfect roadmap to trust a project. They need a credible one that explains sequence, scope, and current focus.
+EHDS provides the legal framework, but it does not automatically provide implementation simplicity.
 
-## What the public roadmap should do
+Without shared, open, and auditable components:
 
-It should show where the foundation is concentrating effort now, what is coming next, and how partners can align with the delivery window.
+* member states will rebuild similar solutions from scratch
+* fragmentation will return under a new label
+* smaller organizations will be excluded by cost and complexity
+* trust in EHDS will be weakened by opaque implementations
 
-That visibility makes early collaboration easier and reduces uncertainty before the first large release.
+OpenEHDS addresses this gap through a neutral foundation model, open components, and practical implementation patterns.

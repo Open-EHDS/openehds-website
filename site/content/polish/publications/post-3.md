@@ -1,19 +1,29 @@
 ---
-title: "Jak contributor powinien rozumieć projekt od pierwszej wizyty"
+title: "Co OpenEHDS tworzy, a czego nie robi"
+slug: "co-openehds-tworzy-a-czego-nie-robi"
 meta_title: ""
-description: "Placeholderowy artykuł o czytelności projektu dla nowych contributorów."
+description: "Granice odpowiedzialności OpenEHDS jako fundacji tworzącej komponenty referencyjne."
 date: 2026-02-14T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Społeczność", "Contributors"]
+categories: ["Governance", "Programy"]
 author: "Anna Kowalczyk"
-tags: ["community", "contributors", "onboarding"]
+tags: ["scope", "governance", "reference-components"]
 draft: false
 ---
 
-Contributor powinien szybko zrozumieć, czym zajmuje się fundacja, gdzie żyje software, co jest gotowe i gdzie pomoc jest najbardziej potrzebna.
+OpenEHDS jest enablerem: tworzy komponenty referencyjne i wzorce architektoniczne dla secondary use w EHDS.
 
-## Lepsze pierwsze wrażenie
+## Co tworzymy
 
-Dlatego strona ma widoczną sekcję społeczności, publikacje oraz jasną ścieżkę do organizacji GitHub.
+* silniki zestawiania zbiorów świadome data permit
+* moduły egzekwowania polityk dostępu i celu
+* konektory między data holderami, access bodies i secure environments
+* komponenty audytu, logowania, lineage oraz zarządzania TTL
 
-Taki układ ogranicza koszt tłumaczenia projektu jeszcze przed pierwszą rozmową lub pierwszym pull requestem.
+## Czego nie robimy
+
+* nie pełnimy roli health data access body
+* nie hostujemy i nie monetyzujemy danych medycznych
+* nie jesteśmy operatorem secure processing environment
+
+Takie rozdzielenie ról buduje zaufanie i ułatwia reużywalność komponentów w różnych krajowych wdrożeniach.

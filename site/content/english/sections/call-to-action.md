@@ -1,12 +1,12 @@
 ---
 enable: true
-title: "Join the neutral implementation dialogue"
+title: "Co-create practical EHDS implementation"
 image: "/images/call-to-action.png"
-description: "OpenEHDS invites institutions, regulators, patient organizations, researchers, and technology teams to co-create reusable, auditable EHDS components for secondary use."
+description: "OpenEHDS invites public institutions, regulators, patient organizations, researchers, and technology partners to co-create open secondary-use components that are auditable, interoperable, and aligned with data permit constraints."
 button:
   enable: true
-  label: "Contact OpenEHDS"
-  link: "/en/contact"
+  label: "Join the Collaboration"
+  link: "/en/contact.html"
 
 build:
   render: "never"

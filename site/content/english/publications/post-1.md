@@ -1,23 +1,25 @@
 ---
-title: "Why OpenEHDS starts with reusable software assets"
+title: "Why OpenEHDS focuses on secondary use"
+slug: "why-openehds-focuses-on-secondary-use"
 meta_title: ""
-description: "A placeholder article explaining why the foundation is centered on reusable implementation assets."
+description: "Why OpenEHDS prioritizes EHDS secondary use of health data."
 date: 2026-02-20T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Software", "Implementation"]
+categories: ["Secondary Use", "EHDS"]
 author: "Piotr Zielinski"
-tags: ["ehds", "software", "reuse"]
+tags: ["ehds", "secondary-use", "mission"]
 draft: false
 ---
 
-OpenEHDS Foundation is intentionally organized around reusable software assets because delivery teams need stable building blocks more than they need another abstract concept deck.
+OpenEHDS focuses on secondary use because this is where regulatory, technical, and organizational complexity is highest.
 
-The public website reflects that decision: programs, publications, and resources are all framed as support for actual implementation work.
+In practice, this is where implementations most often face delivery barriers: permit interpretation, purpose-limitation enforcement, opt-out handling, and end-to-end auditability.
 
-## What the first wave should include
+## What this focus means
 
-The first repository wave can focus on a reference application core, interoperability tooling, and deployment-ready supporting assets.
+* building components for the full temporary-data lifecycle
+* supporting controlled access based on permit scope
+* creating implementation patterns for secure processing environments
+* providing audit, logging, and data lineage capabilities
 
-> Reusable software lowers the cost of alignment for every future partner.
-
-That is why the foundation website must look less like a simple landing page and more like an operating platform.
+The objective is simple: make EHDS implementation practical, not only declarative.

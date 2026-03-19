@@ -1,9 +1,11 @@
 ---
 title: "Contact"
 meta_title: "Contact OpenEHDS"
-description: "Contact point for institutions and stakeholders joining OpenEHDS collaboration."
+description: "Contact point for collaboration on EHDS reference components and implementation dialogue."
 layout: "contact"
 draft: false
 ---
 
-Use this page to start conversations about collaboration, reference implementations, and participation in OpenEHDS dialogue around EHDS secondary use. The current form is a placeholder and can be connected to the final intake workflow later.
+Use this page to start collaboration around OpenEHDS reference components, national adaptation patterns, and EHDS secondary-use stakeholder dialogue.
+
+We especially welcome public institutions, regulators, patient organizations, research teams, and technology partners.

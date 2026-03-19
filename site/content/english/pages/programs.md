@@ -1,44 +1,44 @@
 ---
 title: "Programs"
 meta_title: "Programs"
-description: "Program tracks for building reusable OpenEHDS components for EHDS secondary use."
+description: "OpenEHDS programs for reusable EHDS secondary-use components."
 draft: false
 ---
 
-The Programs section defines where OpenEHDS concentrates delivery effort for EHDS secondary use.
+OpenEHDS programs focus on areas where secondary use requires the highest level of regulatory, technical, and operational precision.
 
-## Permit-aware dataset assembly
+## 1. Permit-aware dataset assembly
 
-This track covers software that prepares temporary, permit-compliant datasets for approved secondary-use purposes.
+This track covers components that prepare temporary datasets aligned with approved permits and processing purposes.
 
-* data permit interpretation and machine-readable constraints
-* dataset assembly pipelines scoped by permit and legal basis
+* interpretation of data permits and machine-readable constraints
+* dataset assembly pipelines constrained by permit scope and legal basis
 * lifecycle controls for temporary data products
 
-## Policy and compliance enforcement
+## 2. Policy and access-rule enforcement
 
-This track covers modules that enforce purpose limitation and legal constraints during access and processing.
+This track covers components enforcing access and compliance rules across the processing lifecycle.
 
-* opt-out and exception handling
-* rule enforcement for access boundaries
-* auditable decision logs for policy application
+* opt-out and legal exception handling
+* purpose limitation and access boundary enforcement
+* auditable policy decision logs
 
-## Secure processing and traceability
+## 3. Secure processing and accountability
 
-This track covers integration patterns for secure processing environments and full accountability.
+This track covers integration patterns for secure processing environments and full auditability.
 
-* connectors between data holders, access bodies, and secure environments
-* audit, logging, and lineage components
-* controlled deletion and TTL mechanisms
+* connectors across data holders, access bodies, and secure environments
+* audit, logging, and data lineage components
+* TTL and controlled deletion mechanisms
 
-## Interoperability and national adaptation
+## 4. Interoperability and national adaptation
 
-This track covers reusable mappings and transformation patterns aligned with EHDS and FHIR.
+This track covers reusable mappings and data transformations aligned with EHDS and FHIR.
 
 * interoperability profiles and transformation logic
 * implementation patterns adaptable to national deployment models
-* reference architecture artifacts for public procurement use
+* reference artifacts suitable for public procurement use
 
 ## Program boundary
 
-OpenEHDS develops enabling components and reference architectures. It does not operate as a health data access body, data host, or secure processing operator.
+OpenEHDS develops components and reference architectures. It does not act as a health data access body, does not host medical data, and does not operate secure processing environments.

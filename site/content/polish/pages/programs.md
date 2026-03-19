@@ -1,44 +1,44 @@
 ---
 title: "Programy"
 meta_title: "Programy"
-description: "Strumienie programowe OpenEHDS dla reużywalnych komponentów secondary use w EHDS."
+description: "Programy OpenEHDS dla reużywalnych komponentów secondary use w EHDS."
 draft: false
 ---
 
-Sekcja Programy pokazuje, gdzie OpenEHDS koncentruje wysiłek wdrożeniowy dla secondary use w EHDS.
+Programy OpenEHDS koncentrują się na obszarach, w których secondary use wymaga największej precyzji regulacyjnej, technicznej i operacyjnej.
 
-## Zestawianie zbiorów świadome data permit
+## 1. Zestawianie zbiorów świadome data permit
 
-Ten strumień obejmuje software przygotowujący tymczasowe zbiory danych zgodne z permitami i zatwierdzonym celem secondary use.
+Strumień obejmuje komponenty przygotowujące tymczasowe zbiory danych zgodne z zatwierdzonym permit i celem przetwarzania.
 
 * interpretacja data permit i ograniczeń maszynowo czytelnych
-* pipeline'y zestawiania zbiorów ograniczonych permitami i podstawą prawną
+* pipeline'y zestawiania danych ograniczonych permitem i podstawą prawną
 * kontrola cyklu życia tymczasowych produktów danych
 
-## Egzekwowanie polityk i zgodności
+## 2. Egzekwowanie polityk i reguł dostępu
 
-Ten strumień obejmuje moduły egzekwujące ograniczenie celu i wymagania prawne podczas dostępu i przetwarzania.
+Strumień obejmuje komponenty egzekwujące zasady dostępu i zgodności na każdym etapie przetwarzania.
 
 * obsługa opt-out i wyjątków prawnych
-* egzekwowanie granic dostępu zgodnie z politykami
+* egzekwowanie ograniczenia celu i granic dostępu
 * audytowalne logi decyzji polityk
 
-## Secure processing i rozliczalność
+## 3. Secure processing i rozliczalność
 
-Ten strumień obejmuje wzorce integracyjne dla secure processing environments i pełnej rozliczalności.
+Strumień obejmuje wzorce integracyjne dla secure processing environments oraz pełnej audytowalności.
 
 * konektory między data holderami, access bodies i secure environments
-* komponenty audytu, logowania i lineage
+* komponenty audytu, logowania i data lineage
 * mechanizmy TTL i kontrolowanego usuwania danych
 
-## Interoperacyjność i adaptacja krajowa
+## 4. Interoperacyjność i adaptacja krajowa
 
-Ten strumień obejmuje reużywalne mapowania i wzorce transformacji zgodne z EHDS i FHIR.
+Strumień obejmuje reużywalne mapowania i transformacje danych zgodne z EHDS i FHIR.
 
 * profile interoperacyjności i logika transformacji
 * wzorce implementacyjne adaptowalne do modeli krajowych
-* artefakty architektury referencyjnej do wykorzystania w zamówieniach publicznych
+* artefakty referencyjne możliwe do wykorzystania w zamówieniach publicznych
 
 ## Granice programu
 
-OpenEHDS tworzy komponenty i architektury referencyjne. Nie pełni roli health data access body, hosta danych ani operatora secure processing environment.
+OpenEHDS tworzy komponenty i architektury referencyjne. Nie pełni roli health data access body, nie hostuje danych medycznych i nie działa jako operator secure processing environment.

@@ -6,7 +6,7 @@ banner:
   button:
     enable: true
     label: "See the Programs"
-    link: "/en/programs"
+    link: "/en/programs.html"
 
 features:
   - title: "Mission grounded in EHDS reality"
@@ -20,7 +20,7 @@ features:
     button:
       enable: true
       label: "About the Foundation"
-      link: "/en/about"
+      link: "/en/about.html"
 
   - title: "Focused on secondary use end-to-end"
     image: "/images/service-2.png"
@@ -34,7 +34,7 @@ features:
     button:
       enable: true
       label: "Explore Scope"
-      link: "/en/resources"
+      link: "/en/resources.html"
 
   - title: "Open components, not a data operator"
     image: "/images/service-3.png"
@@ -48,5 +48,5 @@ features:
     button:
       enable: true
       label: "Read the Roadmap"
-      link: "/en/roadmap"
+      link: "/en/roadmap.html"
 ---

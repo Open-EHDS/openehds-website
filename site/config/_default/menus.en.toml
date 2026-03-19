@@ -7,65 +7,65 @@ weight = 1
 
 [[main]]
 name = "About Us"
-url = "/about"
+url = "/about.html"
 weight = 2
 
 [[main]]
 name = "Programs"
-url = "/programs"
+url = "/programs.html"
 weight = 3
 
 [[main]]
 name = "Resources"
-url = "/resources"
+url = "/resources.html"
 weight = 4
 
 [[main]]
 name = "Community"
-url = "/community"
+url = "/community.html"
 weight = 5
 
 [[main]]
 name = "Roadmap"
-url = "/roadmap"
+url = "/roadmap.html"
 weight = 6
 
 [[main]]
 name = "Publications"
-url = "/publications"
+url = "/publications/"
 weight = 7
 
 [[main]]
 name = "Contact"
-url = "/contact"
+url = "/contact.html"
 weight = 8
 
 [[footer]]
 name = "About Us"
-url = "/about"
+url = "/about.html"
 weight = 1
 
 [[footer]]
 name = "Programs"
-url = "/programs"
+url = "/programs.html"
 weight = 2
 
 [[footer]]
 name = "Resources"
-url = "/resources"
+url = "/resources.html"
 weight = 3
 
 [[footer]]
 name = "Publications"
-url = "/publications"
+url = "/publications/"
 weight = 4
 
 [[footer]]
 name = "Privacy Policy"
-url = "/privacy-policy"
+url = "/privacy-policy.html"
 weight = 5
 
 [[footer]]
 name = "Licensing"
-url = "/licensing"
+url = "/licensing.html"
 weight = 6

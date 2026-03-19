@@ -1,23 +1,25 @@
 ---
-title: "Dlaczego OpenEHDS zaczyna od gotowych aktywów software"
+title: "Dlaczego OpenEHDS koncentruje się na secondary use"
+slug: "dlaczego-openehds-koncentruje-sie-na-secondary-use"
 meta_title: ""
-description: "Placeholderowy artykuł wyjaśniający, dlaczego fundacja stawia na wielokrotne wykorzystanie komponentów."
+description: "Uzasadnienie koncentracji OpenEHDS na wtórnym wykorzystaniu danych medycznych w EHDS."
 date: 2026-02-20T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Software", "Wdrożenie"]
+categories: ["Secondary Use", "EHDS"]
 author: "Piotr Zieliński"
-tags: ["ehds", "software", "reuse"]
+tags: ["ehds", "secondary-use", "mission"]
 draft: false
 ---
 
-OpenEHDS Foundation jest celowo organizowana wokół gotowych aktywów software, bo zespoły wdrożeniowe bardziej potrzebują stabilnych komponentów niż kolejnej abstrakcyjnej narracji.
+OpenEHDS koncentruje się na secondary use, ponieważ to właśnie tam złożoność regulacyjna, techniczna i organizacyjna jest największa.
 
-Publiczna strona ma to od razu komunikować: programy, publikacje i zasoby są podporządkowane realnemu wdrażaniu.
+W praktyce to obszar, w którym wdrożenia najczęściej napotykają bariery: interpretację data permit, egzekwowanie ograniczenia celu, obsługę opt-out oraz audytowalność całego procesu.
 
-## Co powinno wejść do pierwszej fali
+## Co oznacza koncentracja na secondary use
 
-Pierwszy zestaw może obejmować rdzeń referencyjnej aplikacji, narzędzia interoperacyjności i aktywa wspierające deployment.
+* budowanie komponentów dla pełnego cyklu życia danych tymczasowych
+* wspieranie kontrolowanego dostępu opartego na permitach
+* tworzenie wzorców pracy dla secure processing environments
+* zapewnienie mechanizmów audytu, logowania i data lineage
 
-> Wielokrotne wykorzystanie software zmniejsza koszt uzgodnień dla każdego kolejnego partnera.
-
-Dlatego strona fundacji powinna wyglądać bardziej jak platforma operacyjna niż prosty landing page.
+To podejście ma jeden cel: uczynić wdrożenie EHDS praktycznym, a nie wyłącznie deklaratywnym.

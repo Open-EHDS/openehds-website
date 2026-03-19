@@ -35,13 +35,27 @@ Zakres obejmuje cały cykl życia secondary use:
 
 EHDS nie tworzy nieograniczonej federacji danych. Definiuje model dostępu oparty na pozwoleniach administracyjnych ograniczonych celem, czasem i pełną audytowalnością.
 
+W praktyce oznacza to, że istnienie kontrolowanej warstwy pośredniczącej danych jest nieuniknione.
+
+OpenEHDS opisuje ją wprost jako:
+
+**warstwę mediacji danych ograniczoną zakresem data permit i wymuszającą polityki dostępu**
+
 OpenEHDS wprost adresuje tę rzeczywistość jako kontrolowaną warstwę mediacji danych, która:
 
 * nie jest centralnym data lake
 * nie jest trwałym repozytorium danych
 * nie jest komercyjną platformą danych
 
-To tymczasowa, kontrolowana warstwa przetwarzania potrzebna do zestawiania zbiorów zgodnych z permitami, egzekwowania polityk i zapewnienia pełnej rozliczalności.
+To tymczasowa, kontrolowana warstwa przetwarzania potrzebna do:
+
+* tworzenia zbiorów danych zgodnie z zatwierdzonym data permit
+* egzekwowania zasad opt-out, ograniczenia celu i wyjątków prawnych
+* pseudonimizacji, anonimizacji, filtrowania i agregacji danych
+* działania w secure processing environment
+* zapewnienia pełnego logowania, audytu i kontrolowanego usuwania danych po wygaśnięciu permitu
+
+EHDS tej warstwy nie eliminuje - EHDS ją formalnie definiuje, ogranicza i wymusza.
 
 ## Co tworzy OpenEHDS
 
@@ -54,6 +68,13 @@ Otwarte komponenty referencyjne i wzorce architektoniczne, w tym:
 * mechanizmy zarządzania cyklem życia danych tymczasowych, w tym TTL i kontrolowane usuwanie
 * mapowania interoperacyjności i transformacje danych zgodne z EHDS, FHIR i przyszłymi aktami wykonawczymi
 
+Komponenty są projektowane tak, aby mogły być:
+
+* wdrażane przez health data access bodies
+* wdrażane przez trusted health data holders
+* adaptowane do krajowych implementacji EHDS
+* wykorzystywane jako architektury referencyjne w zamówieniach publicznych
+
 ## Czego OpenEHDS nie robi
 
 * nie pełni roli health data access body
@@ -63,9 +84,34 @@ Otwarte komponenty referencyjne i wzorce architektoniczne, w tym:
 
 OpenEHDS jest enablerem, a nie operatorem systemu.
 
-## Governance i zaufanie
+## Governance, neutralność i zaufanie
 
-Model działania opiera się na przejrzystym governance, otwartych procesach kontrybucji, publicznej dokumentacji i jasnym rozdzieleniu od komercyjnego wykorzystania rezultatów.
+Model działania opiera się na:
+
+* przejrzystym modelu governance
+* otwartych procesach kontrybucji
+* publicznej dokumentacji i jawności decyzji
+* wyraźnym rozdzieleniu od komercyjnego wykorzystania rezultatów
+
+Celem inicjatywy jest bycie:
+
+* wiarygodnym partnerem dla instytucji publicznych
+* praktycznym wsparciem dla placówek ochrony zdrowia
+* zaufanym punktem odniesienia dla regulatorów
+* realnym narzędziem dla dostawców technologii
+
+## Dlaczego OpenEHDS jest potrzebne
+
+EHDS zapewnia ramy prawne, ale nie zapewnia prostoty wdrożeniowej.
+
+Bez wspólnych, otwartych i audytowalnych komponentów:
+
+* państwa członkowskie będą budować podobne rozwiązania od zera
+* fragmentacja zostanie odtworzona pod nową nazwą
+* mniejsze organizacje będą wykluczane przez koszt i złożoność
+* zaufanie do EHDS może zostać osłabione przez nieprzejrzyste lub zamknięte implementacje
+
+OpenEHDS istnieje po to, aby przekształcić EHDS z ramy prawnej we wspólną, techniczną rzeczywistość. Inicjatywa zmniejsza też lukę wiedzy wokół EHDS przez otwarte zasoby edukacyjne i dialog między interesariuszami.
 
 ## Open source
 

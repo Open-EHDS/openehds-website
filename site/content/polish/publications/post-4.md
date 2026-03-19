@@ -1,19 +1,23 @@
 ---
-title: "Publiczna roadmapa buduje zaufanie jeszcze przed pierwszym release"
+title: "Dlaczego OpenEHDS jest potrzebne już teraz"
+slug: "dlaczego-openehds-jest-potrzebne-juz-teraz"
 meta_title: ""
-description: "Placeholderowa notatka o tym, dlaczego roadmapa powinna być widoczna publicznie."
+description: "Co grozi wdrażaniu EHDS bez wspólnych i otwartych komponentów."
 date: 2026-02-10T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Roadmapa", "Governance"]
+categories: ["EHDS", "Strategia"]
 author: "Marta Nowak"
-tags: ["roadmap", "planning", "trust"]
+tags: ["fragmentacja", "wdrożenie", "zaufanie"]
 draft: false
 ---
 
-Ludzie nie potrzebują idealnej roadmapy, aby zaufać projektowi. Potrzebują roadmapy wiarygodnej, pokazującej kolejność, scope i aktualny fokus.
+EHDS daje ramy prawne, ale nie zapewnia automatycznie prostoty wdrożeniowej.
 
-## Co powinna dawać publiczna roadmapa
+Bez wspólnych, otwartych i audytowalnych komponentów:
 
-Powinna pokazywać, gdzie fundacja skupia wysiłek teraz, co jest następne i jak partnerzy mogą ustawić swoją pracę wobec kolejnych okien wdrożeniowych.
+* państwa członkowskie będą budować podobne rozwiązania od zera
+* fragmentacja wróci pod nową nazwą
+* mniejsze organizacje zostaną wykluczone przez koszt i złożoność
+* zaufanie do EHDS osłabią nieprzejrzyste implementacje
 
-Taka widoczność ułatwia wczesną współpracę i zmniejsza niepewność przed pierwszym większym wydaniem.
+OpenEHDS odpowiada na ten problem przez neutralny model fundacyjny, otwarte komponenty i praktyczne wzorce wdrożeniowe.

@@ -1,19 +1,26 @@
 ---
-title: "Rola gatewaya językowego w publicznym launchu"
+title: "Kontrolowana warstwa mediacji danych: konieczność, nie opcja"
+slug: "kontrolowana-warstwa-mediacji-danych-koniecznosc-nie-opcja"
 meta_title: ""
-description: "Dlaczego adres root jest neutralnym wyborem języka, a nie jedną wersją treści."
+description: "Dlaczego EHDS formalnie wymusza kontrolowaną warstwę pośredniczącą danych."
 date: 2026-02-18T05:00:00Z
 image: "/images/image-placeholder.png"
-categories: ["Strona", "Lokalizacja"]
+categories: ["Architektura", "EHDS"]
 author: "Marta Nowak"
-tags: ["language", "gateway", "ux"]
+tags: ["data-permit", "mediation-layer", "architecture"]
 draft: false
 ---
 
-Adres główny istnieje jako neutralny gateway, aby obie wersje językowe mogły działać w jawnych subfolderach bez niejasności.
+EHDS nie wprowadza nieograniczonej federacji danych. Model opiera się na dostępie ograniczonym celem, czasem i zakresem data permit.
 
-## Dlaczego to ma sens
+To oznacza, że kontrolowana warstwa mediacji danych jest elementem nieuniknionym.
 
-Takie podejście upraszcza linkowanie, daje obu wersjom równą wagę i zostawia miejsce na późniejsze automatyczne wykrywanie języka bez przebudowy architektury.
+## Do czego ta warstwa jest potrzebna
 
-W przypadku publicznej strony fundacji czytelny root jest często cenniejszy niż sprytne automatyczne przekierowanie.
+* zestawianie zbiorów zgodnych z permitem
+* egzekwowanie opt-out i wyjątków prawnych
+* pseudonimizacja, anonimizacja, filtrowanie i agregacja
+* pełne logowanie i audyt
+* kontrolowane usuwanie danych po zakończeniu permitu
+
+Ta warstwa nie jest centralnym data lake ani trwałym repozytorium. Jej rola jest technicznie ograniczona i audytowalna.

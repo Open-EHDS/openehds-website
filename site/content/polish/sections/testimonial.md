@@ -1,28 +1,28 @@
 ---
 enable: true
-title: "Sygnały z wczesnej współpracy"
-description: "To celowo placeholderowe wypowiedzi, które odzwierciedlają docelową propozycję wartości fundacji."
+title: "Perspektywy interesariuszy"
+description: "Wypowiedzi odzwierciedlające kluczowe potrzeby interesariuszy EHDS secondary use."
 
 testimonials:
-  - name: "Lider wdrożenia"
-    designation: "Regionalny partner delivery"
+  - name: "Przedstawiciel instytucji publicznej"
+    designation: "Health Data Access Body"
     avatar: "/images/avatar-sm.png"
-    content: "Jasna struktura software i publikacji bardzo ułatwia wyjaśnienie, dokąd projekt zmierza i co może być ponownie wykorzystane."
+    content: "Potrzebujemy komponentów, które są audytowalne i możliwe do wdrożenia, a nie kolejnych zamkniętych rozwiązań budowanych od zera."
 
-  - name: "Doradca techniczny"
-    designation: "Grupa interoperacyjności"
+  - name: "Ekspert regulacyjny"
+    designation: "Policy and Compliance"
     avatar: "/images/avatar-sm.png"
-    content: "Najmocniejsza strona tego układu to fakt, że wygląda jak realna platforma operacyjna, a nie tymczasowy microsite."
+    content: "Największą wartością jest możliwość przełożenia ograniczeń data permit i zasad opt-out na konkretne kontrole techniczne."
+
+  - name: "Zespół wdrożeniowy"
+    designation: "Secure Processing Environment"
+    avatar: "/images/avatar-sm.png"
+    content: "Spójne wzorce integracji i data lineage skracają czas dojścia do bezpiecznego i powtarzalnego modelu operacyjnego."
 
   - name: "Maintainer open source"
     designation: "Contributor"
     avatar: "/images/avatar-sm.png"
-    content: "Widoczna ścieżka do GitHub i uporządkowana sekcja społeczności obniżają próg wejścia do projektu."
-
-  - name: "Sponsor programu"
-    designation: "Interesariusz publiczny"
-    avatar: "/images/avatar-sm.png"
-    content: "Nawet placeholderowa treść może budować zaufanie, jeśli architektura strony jasno pokazuje programy, roadmapę i logikę działania."
+    content: "Przejrzysta dokumentacja i otwarty model współpracy ułatwiają kontrybucję ponad granicami organizacji i państw."
 
 build:
   render: "never"
