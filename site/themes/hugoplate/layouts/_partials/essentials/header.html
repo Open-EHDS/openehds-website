@@ -102,7 +102,11 @@
                       {{- end }}
                       {{- .URL -}}
                     {{- else -}}
-                      {{- .URL | relLangURL -}}
+                      {{- $childMenuLink := .URL | relLangURL | replaceRE `\.html/$` `.html` -}}
+                      {{- if and (hasSuffix .URL "/") (not (hasSuffix $childMenuLink "/")) -}}
+                        {{- $childMenuLink = print $childMenuLink "/" -}}
+                      {{- end -}}
+                      {{- $childMenuLink -}}
                     {{- end -}}">
                     {{ .Name }}
                   </a>
@@ -125,7 +129,11 @@
                   {{- site.Home.RelPermalink -}}
                 {{- end }}{{- .URL -}}
               {{- else -}}
-                {{- .URL | relLangURL -}}
+                {{- $menuLink := .URL | relLangURL | replaceRE `\.html/$` `.html` -}}
+                {{- if and (hasSuffix .URL "/") (not (hasSuffix $menuLink "/")) -}}
+                  {{- $menuLink = print $menuLink "/" -}}
+                {{- end -}}
+                {{- $menuLink -}}
               {{- end -}}"
               >{{ .Name }}</a
             >
@@ -136,7 +144,7 @@
         <li class="mt-4 inline-block lg:hidden">
           <a
             class="btn btn-outline-primary btn-sm"
-            href="{{ site.Params.navigation_button.link | relLangURL }}"
+            href="{{ site.Params.navigation_button.link | relLangURL | replaceRE `\.html/$` `.html` }}"
             {{ if (hasPrefix site.Params.navigation_button.link `http`) }}
               target="_blank" rel="noopener"
             {{ end }}>
@@ -170,7 +178,7 @@
       <!-- navigation btn -->
       {{ if site.Params.navigation_button.enable }}
         <a
-          href="{{ site.Params.navigation_button.link | relLangURL }}"
+          href="{{ site.Params.navigation_button.link | relLangURL | replaceRE `\.html/$` `.html` }}"
           class="btn btn-outline-primary btn-sm hidden lg:inline-block"
           {{ if (hasPrefix site.Params.navigation_button.link `http`) }}target="_blank" rel="noopener"{{ end }}>
           {{ site.Params.navigation_button.label }}

@@ -1,9 +1,11 @@
 ---
 title: "Kontakt"
 meta_title: "Kontakt z OpenEHDS"
-description: "Punkt kontaktu dla instytucji i interesariuszy dołączających do współpracy OpenEHDS."
+description: "Punkt kontaktu dla współpracy przy komponentach i architekturach referencyjnych EHDS."
 layout: "contact"
 draft: false
 ---
 
-Ta strona służy do rozpoczęcia rozmów o współpracy, implementacjach referencyjnych i udziale w dialogu OpenEHDS wokół secondary use w EHDS. Aktualny formularz jest placeholderem i może zostać podłączony do docelowego procesu intake później.
+Ta strona służy do rozpoczęcia współpracy wokół komponentów referencyjnych OpenEHDS, adaptacji krajowych oraz dialogu interesariuszy EHDS secondary use.
+
+Szczególnie zapraszamy instytucje publiczne, regulatorów, organizacje pacjenckie, zespoły badawcze i partnerów technologicznych.

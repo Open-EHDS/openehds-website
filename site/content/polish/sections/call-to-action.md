@@ -1,12 +1,12 @@
 ---
 enable: true
-title: "Dołącz do neutralnego dialogu wdrożeniowego"
+title: "Współtwórz praktyczne wdrożenie EHDS"
 image: "/images/call-to-action.png"
-description: "OpenEHDS zaprasza instytucje, regulatorów, organizacje pacjenckie, naukę i zespoły technologiczne do współtworzenia reużywalnych, audytowalnych komponentów EHDS dla secondary use."
+description: "OpenEHDS zaprasza instytucje publiczne, regulatorów, organizacje pacjenckie, naukę i partnerów technologicznych do współtworzenia otwartych komponentów secondary use: audytowalnych, interoperacyjnych i zgodnych z data permit."
 button:
   enable: true
-  label: "Skontaktuj się z OpenEHDS"
-  link: "/pl/contact"
+  label: "Dołącz do współpracy"
+  link: "/pl/contact.html"
 
 build:
   render: "never"

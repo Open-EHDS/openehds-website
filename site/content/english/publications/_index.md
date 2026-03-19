@@ -1,5 +1,5 @@
 ---
 title: "Publications"
 meta_title: "Publications"
-description: "Articles, updates, and technical materials published by OpenEHDS Foundation."
+description: "OpenEHDS publications on mission, secondary-use operating model, and practical EHDS implementation patterns."
 ---

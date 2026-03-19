@@ -1,31 +1,31 @@
 ---
 title: "Resources"
 meta_title: "Resources"
-description: "Resource hub for OpenEHDS architecture, policy implementation, and adoption guidance."
+description: "OpenEHDS resources supporting EHDS secondary use implementation in a controlled access model."
 draft: false
 ---
 
-This page is the OpenEHDS knowledge hub supporting practical EHDS implementation.
+OpenEHDS resources are designed to turn EHDS from a legal framework into practical implementation reality.
 
 ## Architecture and technical resources
 
-* explainers for controlled data mediation architecture
-* reference diagrams for permit-aware dataset assembly
-* implementation notes for policy enforcement modules
-* patterns for secure processing environment integration
-* audit, logging, lineage, TTL, and deletion design notes
+* explainers for the controlled data mediation layer architecture
+* permit-scoped dataset assembly patterns
+* implementation notes for policy and access-rule enforcement modules
+* integration patterns across health data holders, health data access bodies, and secure processing environments
+* audit, logging, data lineage, TTL, and controlled deletion guidance
 
 ## Policy and governance resources
 
-* guidance on translating data permit constraints into technical controls
-* practical references for purpose limitation, opt-out, and legal exceptions
-* governance documentation for transparent and auditable operations
+* practical mapping of data permit constraints into technical controls
+* references for opt-out, purpose limitation, and legal exceptions
+* materials supporting transparent governance and auditable decision-making
 
-## Adoption resources
+## Adoption and education resources
 
-* onboarding briefs for institutions, regulators, and partners
-* implementation checklists for national adaptation
-* educational materials that reduce EHDS knowledge gaps
+* onboarding materials for public institutions, regulators, and technology partners
+* national adaptation checklists for EHDS implementation
+* educational resources that help close EHDS knowledge gaps
 
 ## Open source references
 

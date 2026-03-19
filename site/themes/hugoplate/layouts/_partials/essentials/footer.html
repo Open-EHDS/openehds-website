@@ -23,7 +23,7 @@
                     {{ site.Home.RelPermalink }}
                   {{ end }}{{ .URL }}
                 {{ else }}
-                  {{ .URL | relLangURL }}
+                  {{ .URL | relLangURL | replaceRE `\.html/$` `.html` }}
                 {{ end }}"
                 >{{ .Name }}</a
               >

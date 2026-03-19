@@ -1,31 +1,31 @@
 ---
 title: "Zasoby"
 meta_title: "Zasoby"
-description: "Hub wiedzy OpenEHDS dla architektury, polityk i praktycznej adopcji EHDS."
+description: "Zasoby OpenEHDS wspierające wdrażanie EHDS secondary use w modelu kontrolowanego dostępu."
 draft: false
 ---
 
-Ta strona jest hubem wiedzy OpenEHDS wspierającym praktyczne wdrażanie EHDS.
+Zasoby OpenEHDS wspierają przekształcenie EHDS z ramy prawnej w praktyczną rzeczywistość wdrożeniową.
 
 ## Zasoby architektoniczne i techniczne
 
 * wyjaśnienia architektury kontrolowanej warstwy mediacji danych
-* diagramy referencyjne dla zestawiania zbiorów świadomego permitów
-* noty implementacyjne dla modułów egzekwowania polityk
-* wzorce integracji z secure processing environments
-* materiały o audycie, logowaniu, lineage, TTL i kontrolowanym usuwaniu
+* wzorce zestawiania zbiorów danych zgodnych z zakresem data permit
+* noty implementacyjne dla modułów egzekwowania polityk dostępu i celu przetwarzania
+* wzorce integracji pomiędzy health data holders, health data access bodies i secure processing environments
+* materiały o audycie, logowaniu, data lineage, TTL i kontrolowanym usuwaniu danych
 
 ## Zasoby polityk i governance
 
-* wskazówki przekładania ograniczeń data permit na kontrole techniczne
-* praktyczne opracowania dla ograniczenia celu, opt-out i wyjątków prawnych
-* dokumentacja governance dla przejrzystej i audytowalnej operacyjności
+* praktyczne mapowanie ograniczeń data permit na kontrole techniczne
+* opracowania dla opt-out, ograniczenia celu i wyjątków prawnych
+* materiały wspierające przejrzyste governance i audytowalność decyzji
 
-## Zasoby adopcyjne
+## Zasoby adopcyjne i edukacyjne
 
-* materiały onboardingowe dla instytucji, regulatorów i partnerów
-* checklisty implementacyjne dla adaptacji krajowej
-* zasoby edukacyjne ograniczające lukę wiedzy wokół EHDS
+* materiały onboardingowe dla instytucji publicznych, regulatorów i partnerów technicznych
+* checklisty adaptacji krajowej dla implementacji EHDS
+* zasoby edukacyjne zmniejszające lukę wiedzy wokół EHDS
 
 ## Referencje open source
 

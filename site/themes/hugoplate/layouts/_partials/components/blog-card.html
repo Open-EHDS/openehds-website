@@ -1,10 +1,11 @@
+{{ $postURL := .RelPermalink | replaceRE `\.html/$` `.html` }}
 <div class="bg-body dark:bg-darkmode-body">
   {{ $image:= .Params.image }}
   {{ if $image }}
     {{ partial "image" (dict "Src" $image "Context" .Page "Alt" .Title "Class" "mb-6 w-full rounded") }}
   {{ end }}
   <h4 class="mb-3">
-    <a href="{{ .RelPermalink }}">
+    <a href="{{ $postURL }}">
       {{ .Title }}
     </a>
   </h4>
@@ -31,7 +32,7 @@
     </ul>
   {{ end }}
   <p class="mb-6">{{ .Summary | plainify }}</p>
-  <a class="btn btn-outline-primary btn-sm" href="{{ .RelPermalink }}">
+  <a class="btn btn-outline-primary btn-sm" href="{{ $postURL }}">
     {{ T "read_more" | default "Read More" }}
   </a>
 </div>

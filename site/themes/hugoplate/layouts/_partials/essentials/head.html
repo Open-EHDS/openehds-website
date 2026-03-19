@@ -25,7 +25,7 @@
 
 <!-- opengraph and twitter card -->
 {{/* https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo */}}
-{{ partial "basic-seo.html" . }}
+{{ partial "basic-seo.html" . | replaceRE `\.html/` `.html` | safeHTML }}
 
 
 <!-- custom script -->

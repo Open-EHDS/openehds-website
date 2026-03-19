@@ -6,7 +6,7 @@ banner:
   button:
     enable: true
     label: "Zobacz programy"
-    link: "/pl/programs"
+    link: "/pl/programs.html"
 
 features:
   - title: "Misja osadzona w realiach EHDS"
@@ -20,7 +20,7 @@ features:
     button:
       enable: true
       label: "O fundacji"
-      link: "/pl/about"
+      link: "/pl/about.html"
 
   - title: "Koncentracja na secondary use od początku do końca"
     image: "/images/service-2.png"
@@ -34,7 +34,7 @@ features:
     button:
       enable: true
       label: "Zobacz zakres"
-      link: "/pl/resources"
+      link: "/pl/resources.html"
 
   - title: "Otwarte komponenty, nie operator danych"
     image: "/images/service-3.png"
@@ -48,5 +48,5 @@ features:
     button:
       enable: true
       label: "Przeczytaj roadmapę"
-      link: "/pl/roadmap"
+      link: "/pl/roadmap.html"
 ---
