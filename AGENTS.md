@@ -109,6 +109,7 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
 - Domyślnie pracuj na branchu i wprowadzaj zmiany do `main` przez Pull Request.
 - Poza sytuacjami wyjątkowymi nie rób commitów bezpośrednio do `main`.
 - Commituj na branchu zgodnym z tematem commita; dla nowego, niezależnego tematu twórz nowy branch.
+- Jeśli pracujesz już na branchu zgodnym z tematem i PR dla niego nie został jeszcze utworzony, kolejne commity rób na tym samym branchu; nowy branch twórz tylko na wyraźne polecenie człowieka.
 - Jeśli branch został już zmergowany do `main`, commituj na nim tylko w ostateczności i wyłącznie dla poprawek bezpośrednio związanych z tym samym zakresem.
 - Każdy commit przygotowuj jako możliwie mały i atomowy.
 - Każdy commit powinien mieć nazwę i krótki opis zmian.
