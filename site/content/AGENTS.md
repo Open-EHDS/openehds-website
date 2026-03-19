@@ -5,6 +5,7 @@ Ten plik definiuje zasady redakcyjne dla treści publikowanych w `site/content/`
 ## Publikacje: URL oparty o tytuł
 
 - Dla każdego nowego wpisu w `*/publications/*.md` ustawiaj pole `slug` w front matter.
+- Nazwa pliku wpisu publikacji powinna odpowiadać wartości `slug` (np. `kontrolowana-warstwa-mediacji-danych-koniecznosc-nie-opcja.md`).
 - `slug` twórz na podstawie tytułu wpisu:
   - małe litery,
   - znaki ASCII,
