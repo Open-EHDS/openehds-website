@@ -14,6 +14,8 @@ Ten plik jest mapą instrukcji operacyjnych (runbooków) dla agenta.
   - Indeks i zasady tworzenia runbooków.
 - `docs/runbooks/*.md`
   - Poszczególne runbooki (jeden plik na jeden proces lub obszar).
+- `docs/runbooks/publikowanie-na-github.md`
+  - Runbook publikacji treści na GitHub bez błędów formatowania i quotingu.
 
 ## Zasady tworzenia runbooków
 
@@ -26,4 +28,3 @@ Ten plik jest mapą instrukcji operacyjnych (runbooków) dla agenta.
   - kroki weryfikacji,
   - typowe błędy i sposób reakcji.
 - Po dodaniu nowego pliku dopisz go do sekcji "Mapa plików" w tym dokumencie.
-
