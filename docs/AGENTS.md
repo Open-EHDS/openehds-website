@@ -21,9 +21,10 @@ Ten plik opisuje zawartość katalogu `docs/` i wskazuje, gdzie szukać informac
 - `docs/runbooks/AGENTS.md`
   - Indeks runbooków operacyjnych.
   - Zawiera mapę plików runbooków i zasady ich tworzenia.
+- `docs/runbooks/publikowanie-na-github.md`
+  - Runbook publikowania treści na GitHub bez problemów z formatowaniem.
 
 ## Zasady aktualizacji
 
 - Gdy dodajesz nowy plik do `docs/`, dopisz go w sekcji "Zawartość".
 - Zachowuj opisy krótkie i praktyczne: co to jest, gdzie jest i do czego służy.
-
