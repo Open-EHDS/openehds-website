@@ -11,3 +11,9 @@ languageName = "Polski"
 languageCode = "pl-pl"
 contentDir = "content/polish"
 weight = 2
+
+[pl.params]
+copyright = "OpenEHDS Foundation. Placeholderowa publiczna strona internetowa dla inicjatywy otwartego oprogramowania EHDS."
+
+[pl.params.announcement]
+content = "<span class='text-center block'>OpenEHDS Foundation przygotowuje publiczny start. Poznaj obecne strumienie prac, publikacje i punkty wejścia do społeczności.</span>"
