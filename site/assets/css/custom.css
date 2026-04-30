@@ -1,1 +1,46 @@
-/* Add your own custom styles here */
+:root {
+  --openehds-purple: #160744;
+  --openehds-pink: #ec008c;
+  --openehds-pink-soft: rgba(236, 0, 140, 0.14);
+}
+
+::selection {
+  background: var(--openehds-pink-soft);
+  color: var(--openehds-purple);
+}
+
+:focus-visible {
+  outline: 2px solid var(--openehds-pink);
+  outline-offset: 3px;
+}
+
+.btn-primary {
+  box-shadow: 0 10px 24px rgba(22, 7, 68, 0.12);
+}
+
+.btn-primary:hover {
+  border-color: var(--openehds-pink);
+  background: var(--openehds-pink);
+}
+
+.nav-link.active,
+.nav-dropdown-link.active {
+  text-decoration-color: var(--openehds-pink);
+  text-decoration-line: underline;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.35em;
+}
+
+.content a:not(.btn) {
+  text-decoration-color: var(--openehds-pink);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 0.2em;
+}
+
+.content a:not(.btn):hover {
+  color: var(--openehds-pink);
+}
+
+.social-icons li a:hover {
+  background: var(--openehds-pink);
+}

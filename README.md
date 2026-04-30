@@ -9,6 +9,27 @@ Repozytorium zawiera stronę fundacji OpenEHDS budowaną w oparciu o Hugo oraz z
 - [docs/](docs/) - dokumentacja techniczna, runbooki i notatki API.
 - [scripts/](scripts/) - pomocnicze skrypty do fallbackowej obsługi GitHub API.
 
+## Uruchamianie
+
+Projekt ma dwie konfiguracje Docker Compose:
+
+- `compose.dev.yaml` - konfiguracja deweloperska do pracy lokalnej,
+- `compose.yaml` - konfiguracja produkcyjna, używana do lokalnego odtworzenia wariantu produkcyjnego.
+
+Podczas pracy na lokalnym komputerze używamy konfiguracji deweloperskiej:
+
+```sh
+docker compose -f compose.dev.yaml up -d --build
+```
+
+Strona jest wtedy dostępna pod adresem `http://localhost:8080`.
+
+Środowisko deweloperskie można zatrzymać poleceniem:
+
+```sh
+docker compose -f compose.dev.yaml down
+```
+
 ## Licencje
 
 W tym repozytorium nie obowiązuje jedna wspólna licencja dla wszystkich plików. Poszczególne grupy plików podlegają różnym zasadom:
