@@ -1,0 +1,69 @@
+name: Bug
+description: Zgłoś błąd wymagający naprawy.
+title: "[Bug]: "
+labels: []
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: Opis
+      description: Co nie działa i jaki jest faktyczny efekt?
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Wpływ
+      description: Kogo dotyczy błąd i jak poważny jest skutek?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Kroki odtworzenia
+      description: Podaj minimalne kroki prowadzące do błędu.
+      placeholder: |
+        1. ...
+        2. ...
+        3. ...
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Oczekiwany wynik
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Faktyczny wynik
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Środowisko
+      description: Wersja aplikacji, branch, commit, przeglądarka, system lub inne istotne dane.
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logi i komunikaty błędów
+      render: shell
+    validations:
+      required: false
+  - type: checkboxes
+    id: completeness
+    attributes:
+      label: Kontrola kompletności
+      options:
+        - label: Opis wskazuje faktyczne zachowanie i skutek.
+          required: true
+        - label: Kroki odtworzenia są możliwe do wykonania przez osobę trzecią.
+          required: true
+        - label: Oczekiwany i faktyczny wynik są rozdzielone.
+          required: true
+        - label: Podano środowisko albo wyjaśniono, dlaczego nie da się go ustalić.
+          required: true

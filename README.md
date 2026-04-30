@@ -2,6 +2,13 @@
 
 Repozytorium zawiera stronę fundacji OpenEHDS budowaną w oparciu o Hugo oraz zmodyfikowany szablon Hugoplate.
 
+## Struktura pracy
+
+- [AGENTS.md](AGENTS.md) - zasady pracy agentów, skróty GitHub i git flow.
+- [.github/](.github/) - szablony issue, Pull Requestów i instrukcje review.
+- [docs/](docs/) - dokumentacja techniczna, runbooki i notatki API.
+- [scripts/](scripts/) - pomocnicze skrypty do fallbackowej obsługi GitHub API.
+
 ## Licencje
 
 W tym repozytorium nie obowiązuje jedna wspólna licencja dla wszystkich plików. Poszczególne grupy plików podlegają różnym zasadom:

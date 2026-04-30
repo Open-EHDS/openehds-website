@@ -5,6 +5,7 @@ Katalog zawiera dokumentację integracji API używanych w projekcie.
 ## Zawartość
 
 - `AGENTS.md` - zasady prowadzenia dokumentacji API i mapa plików.
+- [`GitHub-API.md`](GitHub-API.md) - fallback API dla operacji na GitHub issues.
 - `*.md` - kolejne dokumenty integracji API.
 
 ## Jak używać
@@ -12,4 +13,3 @@ Katalog zawiera dokumentację integracji API używanych w projekcie.
 1. Sprawdź zasady i mapę plików w `AGENTS.md`.
 2. Dodaj nową integrację API jako osobny plik `*.md`.
 3. Uzupełnij mapę plików w `AGENTS.md`.
-

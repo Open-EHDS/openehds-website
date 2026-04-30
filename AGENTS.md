@@ -102,7 +102,17 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
 - Główne repozytorium (origin): `git@github.com:Open-EHDS/openehds-website.git`.
 - Oprogramowanie hostujące (origin): `GitHub`.
 - Przy publikacji czegokolwiek na GitHub (PR, komentarze, issue) stosuj runbook `docs/runbooks/publikowanie-na-github.md`.
+- Przy operacjach na GitHub domyślnie używaj dostępnego MCP. Gdy MCP nie wystarcza, używaj `gh`, a bez niego helperów API opisanych w `docs/apis/GitHub-API.md`.
 - Gdy człowiek prosi o zamknięcie issue, a zakres realizacji jest znany, domyślnie: dodaj komentarz po polsku z podsumowaniem wykonanych prac i linkami do commitów, a następnie zamknij issue.
+
+## Skróty poleceń GitHub
+
+- `c` oznacza przygotowanie commita bez push.
+- `c+p` oznacza przygotowanie commita i push.
+- `c+p+pr` oznacza przygotowanie commita, push i utworzenie Pull Requesta.
+- `rc #NNN` oznacza przejrzenie komentarzy w PR `#NNN` i uwzględnienie ich w dalszej pracy.
+- `rc` oznacza to samo dla aktualnego lub ostatniego PR; jeśli PR nie da się ustalić jednoznacznie, zapytaj o numer.
+- Skróty nie znoszą wymogu wyraźnej zgody człowieka na commit, push i publikację PR.
 
 ## PR i branchowanie
 
@@ -111,5 +121,8 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
 - Commituj na branchu zgodnym z tematem commita; dla nowego, niezależnego tematu twórz nowy branch.
 - Jeśli pracujesz już na branchu zgodnym z tematem i PR dla niego nie został jeszcze utworzony, kolejne commity rób na tym samym branchu; nowy branch twórz tylko na wyraźne polecenie człowieka.
 - Jeśli branch został już zmergowany do `main`, commituj na nim tylko w ostateczności i wyłącznie dla poprawek bezpośrednio związanych z tym samym zakresem.
-- Każdy commit przygotowuj jako możliwie mały i atomowy.
+- Każdy commit przygotowuj jako możliwie mały i atomowy; przy skrótach `c`, `c+p` i `c+p+pr` stosuj runbook `docs/runbooks/atomowe-commity.md`.
 - Każdy commit powinien mieć nazwę i krótki opis zmian.
+- Przy review Pull Requesta stosuj runbook `docs/runbooks/pr-review.md`.
+- Przy diagnostyce błędów CI stosuj runbook `docs/runbooks/diagnostyka-ci.md`.
+- Przy tworzeniu albo weryfikacji issue stosuj runbook `docs/runbooks/przygotowanie-issue-i-specyfikacji.md`.

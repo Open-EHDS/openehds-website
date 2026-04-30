@@ -13,6 +13,8 @@ Ten plik jest mapą dokumentacji integracji API.
   - Indeks i zasady prowadzenia dokumentacji API.
 - `docs/apis/*.md`
   - Dokumenty integracji API (jeden plik na integrację lub spójny obszar).
+- `docs/apis/GitHub-API.md`
+  - Notatki o GitHub REST API oraz helperze `scripts/github-issues.sh`.
 
 ## Zasady prowadzenia dokumentacji API
 
@@ -25,4 +27,3 @@ Ten plik jest mapą dokumentacji integracji API.
   - najważniejsze endpointy i operacje,
   - wymagania bezpieczeństwa.
 - Po dodaniu nowego pliku dopisz go do sekcji "Mapa plików" w tym dokumencie.
-

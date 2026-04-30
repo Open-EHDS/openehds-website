@@ -1,4 +1,5 @@
 .DS_Store
+.env
 .secrets
 site/.hugo_build.lock
 site/resources/*

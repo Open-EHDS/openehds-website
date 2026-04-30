@@ -10,4 +10,5 @@ Ten folder zawiera uporządkowaną dokumentację i wiedzę o repozytorium.
   - specyfikacje zmian
 - `runbooks/`
   - instrukcje operacyjne dla agenta
-
+- `apis/GitHub-API.md`
+  - fallback API dla operacji na GitHub issues
