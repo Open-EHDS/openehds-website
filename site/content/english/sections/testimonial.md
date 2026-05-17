@@ -1,5 +1,5 @@
 ---
-enable: true
+enable: false
 title: "Stakeholder perspectives"
 description: "Voices reflecting key needs of EHDS secondary-use stakeholders."
 

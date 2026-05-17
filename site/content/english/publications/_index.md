@@ -1,5 +1,5 @@
 ---
-title: "Publications"
-meta_title: "Publications"
-description: "OpenEHDS publications on mission, secondary-use operating model, and practical EHDS implementation patterns."
+title: "Blog"
+meta_title: "Blog"
+description: "OpenEHDS blog posts on EHDS regulation, secondary use, interoperability, governance, and implementation."
 ---

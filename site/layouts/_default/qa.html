@@ -1,0 +1,31 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-10">
+          <div class="space-y-4">
+            {{ range .Params.qa }}
+              <details
+                class="border-border dark:border-darkmode-border group border-b py-4">
+                <summary
+                  class="text-text-dark dark:text-darkmode-text-dark flex cursor-pointer list-none items-center justify-between gap-4 text-lg font-semibold">
+                  <span>{{ .question }}</span>
+                  <span
+                    class="text-primary dark:text-darkmode-primary shrink-0 transition-transform group-open:rotate-45">
+                    +
+                  </span>
+                </summary>
+                <div class="content mt-4 text-base">
+                  {{ .answer | markdownify }}
+                </div>
+              </details>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

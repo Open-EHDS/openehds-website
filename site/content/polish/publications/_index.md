@@ -1,5 +1,5 @@
 ---
-title: "Publikacje"
-meta_title: "Publikacje"
-description: "Publikacje OpenEHDS o misji fundacji, modelu secondary use i praktycznych wzorcach wdrożenia EHDS."
+title: "Blog"
+meta_title: "Blog"
+description: "Wpisy blogowe OpenEHDS o regulacji EHDS, secondary use, interoperacyjności, governance i wdrożeniu."
 ---

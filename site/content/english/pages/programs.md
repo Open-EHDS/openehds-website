@@ -1,44 +1,47 @@
 ---
-title: "Programs"
-meta_title: "Programs"
-description: "OpenEHDS programs for reusable EHDS secondary-use components."
+title: "Download"
+meta_title: "Download"
+description: "OpenEHDS connectors for integration with the P1 system and the Intelligent Services Platform."
 draft: false
 ---
 
-OpenEHDS programs focus on areas where secondary use requires the highest level of regulatory, technical, and operational precision.
+## Connector for reporting medical events to the P1 system
 
-## 1. Permit-aware dataset assembly
+The connector for reporting medical events to the P1 system (Platforma e-Zdrowie, the Polish e-Health Platform) supports the mandatory process of submitting information about patient encounters with healthcare providers and professional practices. Data reported to P1 feeds the Internet Patient Account (IKP) and enables the exchange of Electronic Medical Documentation (EDM) between healthcare organisations.
 
-This track covers components that prepare temporary datasets aligned with approved permits and processing purposes.
+The reporting obligation applies to all entities performing medical activity - including primary care, specialist outpatient care, hospitals, and individual or group professional practices - regardless of whether they hold a contract with the National Health Fund (NFZ).
 
-* interpretation of data permits and machine-readable constraints
-* dataset assembly pipelines constrained by permit scope and legal basis
-* lifecycle controls for temporary data products
+The project was prepared for integrators and technical teams that want to process operations in batches, submitted as JSON files, and receive results in the form of:
 
-## 2. Policy and access-rule enforcement
+* JSON files
+* audit entries
+* technical processing logs
 
-This track covers components enforcing access and compliance rules across the processing lifecycle.
+The connector supports both one-off run-once execution and continuous watch mode based on Sidekiq, sidekiq-cron, and Redis.
 
-* opt-out and legal exception handling
-* purpose limitation and access boundary enforcement
-* auditable policy decision logs
+**Availability:** ready, currently under testing, and planned for publication soon on the foundation's GitHub.
 
-## 3. Secure processing and accountability
+## Connector for PUI (Intelligent Services Platform)
 
-This track covers integration patterns for secure processing environments and full auditability.
+The connector for PUI (Platforma Usług Inteligentnych, the Intelligent Services Platform) was prepared as an integration component supporting communication with digital services used in the modern healthcare ecosystem.
 
-* connectors across data holders, access bodies, and secure environments
-* audit, logging, and data lineage components
-* TTL and controlled deletion mechanisms
+The project enables the development of secure and interoperable integrations between medical systems, service platforms, and public administration services related to health data processing and digital workflows.
 
-## 4. Interoperability and national adaptation
+The connector was designed for:
 
-This track covers reusable mappings and data transformations aligned with EHDS and FHIR.
+* system integrators
+* medical software vendors
+* implementation teams
+* organisations building solutions aligned with interoperability and digital health administration requirements
 
-* interoperability profiles and transformation logic
-* implementation patterns adaptable to national deployment models
-* reference artifacts suitable for public procurement use
+The main design assumptions include:
 
-## Program boundary
+* modular integration architecture
+* support for service-based communication
+* ability to run batch and asynchronous processes
+* auditability of operations
+* easy adaptation to changing regulatory and technical requirements
 
-OpenEHDS develops components and reference architectures. It does not act as a health data access body, does not host medical data, and does not operate secure processing environments.
+The connector can be part of a broader interoperable infrastructure supporting healthcare digitisation and the implementation of solutions aligned with the direction of the European Health Data Space (EHDS).
+
+**Availability:** ready, currently under testing, and planned for publication soon on the foundation's GitHub.

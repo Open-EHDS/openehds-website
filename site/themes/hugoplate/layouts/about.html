@@ -7,9 +7,18 @@
             {{ partial "image" (dict "Src" .Params.image "Context" .Page "Alt" .Title "Class" "mx-auto rounded mb-6" ) }}
           {{ end }}
           <h2 class="h3 mb-6">{{ .Title }}</h2>
-          <div class="content">{{ .Content }}</div>
+          <div class="content about-content">{{ .Content }}</div>
         </div>
       </div>
     </div>
   </section>
+  <style>
+    .about-content img[src*="founder-"] {
+      aspect-ratio: 1 / 1;
+      border-radius: 8px;
+      display: block;
+      max-width: min(360px, 100%);
+      object-fit: cover;
+    }
+  </style>
 {{ end }}

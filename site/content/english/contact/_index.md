@@ -6,6 +6,4 @@ layout: "contact"
 draft: false
 ---
 
-Use this page to start collaboration around OpenEHDS reference components, national adaptation patterns, and EHDS secondary-use stakeholder dialogue.
-
-We especially welcome public institutions, regulators, patient organizations, research teams, and technology partners.
+Have questions, ideas, or want to help shape OpenEHDS? Let's talk.

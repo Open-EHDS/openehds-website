@@ -12,3 +12,13 @@ search_initial_message: Zacznij pisać, aby wyszukać...
 search_navigate: aby przejść
 search_select: aby wybrać
 search_close: aby zamknąć
+announcement_content: Fundacja OpenEHDS buduje otwartą infrastrukturę dla Europejskiej Przestrzeni Danych Zdrowotnych (EHDS). Razem z nami rozwijaj interoperacyjne i praktyczne rozwiązania wspierające wdrażanie EHDS.
+contact_full_name: Imię i nazwisko
+contact_full_name_placeholder: Jan Kowalski
+contact_email: E-mail
+contact_email_placeholder: jan.kowalski@email.com
+contact_message: Wiadomość
+contact_message_placeholder: Wpisz wiadomość...
+contact_submit: Wyślij
+footer_copyright_name: Fundacja OpenEHDS
+footer_legal_line: "**Fundacja OpenEHDS**, KRS: 0001241248, ul. Aleja Jana Pawła II 43A lok. 37B, 01-001 Warszawa, Polska."
