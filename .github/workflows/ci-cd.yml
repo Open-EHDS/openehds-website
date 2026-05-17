@@ -73,8 +73,17 @@ jobs:
           chmod 700 ~/.ssh
           printf '%s\n' "$PROD_SSH_KEY" > ~/.ssh/openehds-production
           printf '%s\n' "$PROD_SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          cat > ~/.ssh/config <<'EOF'
+          Host *
+            IdentityFile ~/.ssh/openehds-production
+            IdentitiesOnly yes
+            PubkeyAcceptedAlgorithms +ssh-rsa
+            UserKnownHostsFile ~/.ssh/known_hosts
+            StrictHostKeyChecking yes
+          EOF
           chmod 600 ~/.ssh/openehds-production
           chmod 600 ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/config
 
       - name: Deploy over SSH
         run: |
@@ -86,9 +95,8 @@ jobs:
           )
 
           ssh_args=(
-            -i ~/.ssh/openehds-production \
+            -F ~/.ssh/config \
             -p "$PROD_SSH_PORT" \
-            -o IdentitiesOnly=yes \
           )
 
           if [ -n "$PROD_SSH_PROXY_JUMP" ]; then
