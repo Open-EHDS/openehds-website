@@ -20,43 +20,6 @@ OpenEHDS is built on the belief that EHDS infrastructure must be:
 
 The initiative also creates a neutral space for dialogue between public institutions, regulators, patient organizations, researchers, and technology stakeholders through open discussion, workshops, and co-creation of reference architectures.
 
-## Scope
-
-OpenEHDS focuses primarily on EHDS secondary use of electronic health data, where regulatory, technical, and organizational complexity is highest.
-
-The scope includes the full secondary-use lifecycle:
-
-* dataset preparation for approved secondary-use cases
-* controlled access based on data permits
-* operation in secure processing environments
-* auditable and transparent lifecycle governance
-
-## Controlled data mediation layer
-
-EHDS does not create unrestricted data federation. It establishes permit-based access that is limited by purpose, time, and full auditability.
-
-In practice, this means a controlled data mediation layer is unavoidable.
-
-OpenEHDS defines this layer explicitly as:
-
-**a data mediation layer constrained by data permit scope and enforcing access policies**
-
-OpenEHDS explicitly addresses this reality as a controlled data mediation layer that:
-
-* is not a central data lake
-* is not a permanent data repository
-* is not a commercial data platform
-
-It is a temporary, controlled data assembly and processing layer required for:
-
-* creating datasets according to approved data permits
-* enforcing opt-out rules, purpose limitation, and legal exceptions
-* pseudonymization, anonymization, filtering, and aggregation
-* operating within secure processing environments
-* ensuring complete logging, auditing, and controlled data deletion after permit expiry
-
-EHDS does not remove this layer - EHDS formally defines, constrains, and enforces it.
-
 ## What OpenEHDS builds
 
 Open reference components and architecture patterns, including:
@@ -116,3 +79,31 @@ OpenEHDS exists to turn EHDS from a legal framework into shared technical realit
 ## Open source presence
 
 * GitHub organization: [Open-EHDS on GitHub](https://github.com/Open-EHDS)
+
+## Founders of the Foundation
+
+### Tomasz Kulbacki
+
+![Tomasz Kulbacki](/images/founder-tomasz-kulbacki.png)
+
+Co-founder of OpenEHDS Foundation, entrepreneur, and business development leader with over 15 years of experience in the technology, healthcare, and public sectors.
+
+Tomasz specializes in building strategic partnerships, developing interoperable digital ecosystems, and leading technology initiatives at the intersection of healthcare, regulation, and digital transformation. Throughout his career, he has worked with both private and public-sector organisations, supporting large-scale IT, healthcare, and infrastructure projects.
+
+He is currently the CEO of Detable and the owner of IT Design, where he focuses on digital innovation, interoperability, and scalable technology delivery. Previously, he held business development and public-sector leadership roles at companies including Britenet, Philips Lighting Poland, and Simple S.A.
+
+Within OpenEHDS, Tomasz is focused on building practical and interoperable infrastructure aligned with the European Health Data Space (EHDS), with particular emphasis on open-source collaboration, regulatory readiness, and system-level implementation of health data exchange mechanisms across Europe.
+
+He believes that the future of healthcare interoperability in Europe should be built through transparency, reusable infrastructure, and cross-sector collaboration rather than proprietary silos and vendor lock-in.
+
+### Ania Adamiak
+
+![Ania Adamiak](/images/founder-ania-adamiak.png)
+
+Co-founder of OpenEHDS Foundation, digital transformation advisor, and strategist with over 15 years of experience at the intersection of technology, healthcare, innovation, and organizational development.
+
+Ania is the Co-founder and CEO of EENGINE Software House and has led multiple digital transformation and technology initiatives, supporting organizations in building scalable products, improving operational processes, and navigating complex change.
+
+Her background combines technology and business with academic foundations in Evolutionary Biology and an MBA, bringing together scientific thinking, systems perspective, and strategic leadership.
+
+Within OpenEHDS, she focuses on translating EHDS regulatory and interoperability requirements into practical, open, and implementation-ready infrastructure approaches. She strongly advocates for open standards, transparent governance, and open-source collaboration as foundations for trustworthy European health data ecosystems.

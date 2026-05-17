@@ -13,7 +13,7 @@ banner:
 
 features:
   - title: "Otwarta infrastruktura dla realiów EHDS"
-    image: "/images/open-infrastructure-pl.png"
+    image: "/images/home-health-data-infrastructure.png"
     content: "OpenEHDS to otwarta, społecznościowa inicjatywa skoncentrowana na budowie komponentów open-source zgodnych z EHDS, które umożliwiają bezpieczną, interoperacyjną i gotową regulacyjnie wymianę elektronicznych danych zdrowotnych w Europie. Naszą misją jest wspieranie świadczeniodawców, instytucji publicznych, badaczy i dostawców technologii w przygotowaniu do działania w ramach European Health Data Space przez transparentne, audytowalne i reużywalne building blocks techniczne, które odzwierciedlają prawne, governance'owe i operacyjne realia EHDS - nie abstrakcyjne ani idealizowane modele. Inspirowane zasadami stojącymi za Wikipedią i otwartymi dobrami cyfrowymi, OpenEHDS ma działać jako neutralna, niekomercyjna fundacja umożliwiająca współpracę między sektorami i ponad granicami."
     bulletpoints:
       - "Interoperacyjna z założenia"
