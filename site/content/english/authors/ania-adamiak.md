@@ -14,4 +14,3 @@ social:
 ---
 
 Ania works on OpenEHDS strategy, regulatory framing, and public-facing communication around trustworthy EHDS implementation.
-

@@ -14,4 +14,3 @@ social:
 ---
 
 Tomasz pracuje nad architekturą EHDS, modelami wdrożeniowymi i praktycznymi wzorcami infrastrukturalnymi dla OpenEHDS.
-

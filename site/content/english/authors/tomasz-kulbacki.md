@@ -14,4 +14,3 @@ social:
 ---
 
 Tomasz works on EHDS architecture, implementation models, and practical infrastructure patterns for OpenEHDS.
-

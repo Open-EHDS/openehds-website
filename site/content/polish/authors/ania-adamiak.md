@@ -14,4 +14,3 @@ social:
 ---
 
 Ania pracuje nad strategią OpenEHDS, interpretacją regulacyjną i komunikacją dotyczącą zaufanego wdrażania EHDS.
-
