@@ -1,16 +1,21 @@
 ---
 title: "Roadmapa"
 meta_title: "Roadmapa"
-description: "Etapy realizacji misji OpenEHDS dla secondary use w EHDS."
+description: "Harmonogram wdrażania EHDS w latach 2027-2035."
+layout: "roadmap"
+image: "/images/ehds-roadmap-pl.png"
+image_alt: "Harmonogram wdrażania EHDS"
 draft: false
 ---
 
-Roadmapa przekłada misję OpenEHDS na etapy, które prowadzą od założeń regulacyjnych do reużywalnych rozwiązań technicznych.
+**Harmonogram wdrażania EHDS** pokazuje, jak Europejska Przestrzeń Danych Zdrowotnych będzie rozwijana etapami w latach 2027-2035. Proces ten obejmuje zarówno tworzenie wspólnych standardów interoperacyjności i infrastruktury technicznej, jak i stopniowe uruchamianie mechanizmów dostępu do danych zdrowotnych dla opieki zdrowotnej, badań naukowych, polityk publicznych i innowacji.
 
-1. ustanowienie przejrzystego governance i otwartych procesów kontrybucji dla neutralnego modelu fundacyjnego
-2. publikacja pierwszych komponentów referencyjnych do zestawiania zbiorów świadomych data permit i egzekwowania polityk
-3. udostępnienie wzorców integracji dla secure processing environments wraz z audytem, lineage, TTL i kontrolowanym usuwaniem
-4. rozwój mapowań interoperacyjności zgodnych z EHDS i FHIR oraz guidance dla adaptacji krajowych
-5. publikacja zasobów edukacyjnych i wdrożeniowych zmniejszających lukę wiedzy wokół EHDS
+Grafika przedstawia najważniejsze momenty wdrożenia rozporządzenia EHDS - od budowy fundamentów governance i secure processing environments, przez uruchomienie secondary use i interoperacyjności EHR, aż po rozwój międzynarodowej współpracy w ramach HealthData@EU.
 
-Kolejność wynika z jednej zasady: wdrożenie EHDS ma być praktyczne, przejrzyste i audytowalne, a nie fragmentaryczne.
+**Najważniejsze etapy wdrożenia:**
+
+* **2027** - rozpoczęcie stosowania EHDS oraz publikacja pierwszych specyfikacji technicznych i wymogów infrastrukturalnych
+* **2027-2029** - budowa wspólnych "rails": governance, interoperacyjności, secure processing environments i katalogów danych
+* **2029** - rozpoczęcie operacyjnego secondary use danych zdrowotnych oraz wdrażanie pierwszych kategorii primary-use
+* **2031** - wejście wymogów interoperacyjności i compliance dla systemów EHR oraz rozszerzenie zakresu danych objętych EHDS
+* **2035** - rozwój międzynarodowego wymiaru HealthData@EU i mechanizmów współpracy z państwami trzecimi

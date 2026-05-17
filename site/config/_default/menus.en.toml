@@ -1,11 +1,6 @@
 ############# English navigation ##############
 
 [[main]]
-name = "Home"
-url = "/"
-weight = 1
-
-[[main]]
 name = "About Us"
 url = "/about.html"
 weight = 2
@@ -16,13 +11,8 @@ url = "/programs.html"
 weight = 3
 
 [[main]]
-name = "Resources"
-url = "/resources.html"
-weight = 4
-
-[[main]]
-name = "Community"
-url = "/community.html"
+name = "Q&A"
+url = "/q-and-a.html"
 weight = 5
 
 [[main]]
@@ -31,7 +21,7 @@ url = "/roadmap.html"
 weight = 6
 
 [[main]]
-name = "Publications"
+name = "Blog"
 url = "/publications/"
 weight = 7
 
@@ -39,33 +29,3 @@ weight = 7
 name = "Contact"
 url = "/contact.html"
 weight = 8
-
-[[footer]]
-name = "About Us"
-url = "/about.html"
-weight = 1
-
-[[footer]]
-name = "Programs"
-url = "/programs.html"
-weight = 2
-
-[[footer]]
-name = "Resources"
-url = "/resources.html"
-weight = 3
-
-[[footer]]
-name = "Publications"
-url = "/publications/"
-weight = 4
-
-[[footer]]
-name = "Privacy Policy"
-url = "/privacy-policy.html"
-weight = 5
-
-[[footer]]
-name = "Licensing"
-url = "/licensing.html"
-weight = 6

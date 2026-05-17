@@ -27,7 +27,7 @@ google_adsense = ""     # example: ca-pub-xxxxxxxxxxxxxxxx
 # custom script on header, example: custom_script= "<script>console.log(\"Hello World\")</script>"
 custom_script = ""
 # copyright
-copyright = "OpenEHDS Foundation. Placeholder public website for the open EHDS software initiative."
+copyright = "**Fundacja OpenEHDS**, KRS: 0001241248, ul. Aleja Jana Pawła II 43A lok. 37B, 01-001 Warszawa, Polska."
 
 # Preloader
 # preloader module: https://github.com/gethugothemes/hugo-modules/tree/master/components/preloader
@@ -57,7 +57,7 @@ show_categories = true
 [announcement]
 enable = true
 expire_days = 7
-content = "<span class='text-center block'>OpenEHDS Foundation is preparing its public launch. Explore the current workstreams, publications, and community entry points.</span>"
+content = "<span class='text-center block'>OpenEHDS Foundation is building open infrastructure for the European Health Data Space. Join us on the journey toward interoperable and trustworthy EHDS implementation.</span>"
 
 # seo meta data for OpenGraph / Twitter Card
 # seo module: https://github.com/gethugothemes/hugo-modules/tree/master/seo-tools/basic-seo

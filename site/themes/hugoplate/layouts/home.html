@@ -1,6 +1,7 @@
 {{ define "main" }}
   <!-- Banner -->
   {{ with .Params.banner }}
+    {{ $banner := . }}
     <section class="section pt-14">
       <div class="container">
         <div class="row justify-center">
@@ -25,8 +26,37 @@
             {{ end }}
           </div>
           <div class="col-12">
-            {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
-            {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
+            {{ with .video }}
+              <div class="mx-auto aspect-video overflow-hidden rounded-lg lg:!max-w-[800px]">
+                <iframe
+                  class="h-full w-full"
+                  src="{{ . }}"
+                  title="OpenEHDS video"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  referrerpolicy="strict-origin-when-cross-origin"
+                  allowfullscreen></iframe>
+              </div>
+              {{ with $banner.video_credit }}
+                <p
+                  class="text-text-light dark:text-darkmode-text-light mx-auto mt-3 text-center text-sm lg:!max-w-[800px]">
+                  {{ if $banner.video_credit_link }}
+                    <a
+                      class="hover:text-primary dark:hover:text-darkmode-primary underline underline-offset-2"
+                      href="{{ $banner.video_credit_link | safeURL }}"
+                      target="_blank"
+                      rel="noopener">
+                      {{ . }}
+                    </a>
+                  {{ else }}
+                    {{ . }}
+                  {{ end }}
+                </p>
+              {{ end }}
+            {{ else }}
+              {{/* image modules comes from https://github.com/gethugothemes/hugo-modules/tree/master/images */}}
+              {{ partial "image" (dict "Src" .image "Alt" "Banner image" "Loading" "eager" "Class" "mx-auto lg:!max-w-[800px]" "DisplayXL" "800x" ) }}
+            {{ end }}
           </div>
         </div>
       </div>

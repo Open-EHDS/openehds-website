@@ -1,0 +1,13 @@
+{{/* PWA is disabled so old HTML is not served from a service-worker cache. */}}
+<script>
+  if ("serviceWorker" in navigator) {
+    navigator.serviceWorker.getRegistrations().then((registrations) => {
+      registrations.forEach((registration) => registration.unregister());
+    });
+  }
+  if ("caches" in window) {
+    caches.keys().then((keys) => {
+      keys.forEach((key) => caches.delete(key));
+    });
+  }
+</script>

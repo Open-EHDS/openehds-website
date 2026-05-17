@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{ partial "page-header" . }}
+
+
+  <section class="section-sm">
+    <div class="container">
+      <div class="row justify-center">
+        <div class="lg:col-11">
+          {{ with .Params.image }}
+            {{ partial "image" (dict "Src" . "Context" $.Page "Alt" ($.Params.image_alt | default $.Title) "Class" "mb-10 w-full rounded" "Loading" "eager") }}
+          {{ end }}
+        </div>
+        <div class="lg:col-10">
+          <div class="content">
+            {{ .Content }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+{{ end }}

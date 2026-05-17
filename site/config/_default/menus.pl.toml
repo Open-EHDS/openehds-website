@@ -1,11 +1,6 @@
 ############# Polish navigation ##############
 
 [[main]]
-name = "Start"
-url = "/"
-weight = 1
-
-[[main]]
 name = "O nas"
 url = "/about.html"
 weight = 2
@@ -16,13 +11,8 @@ url = "/programs.html"
 weight = 3
 
 [[main]]
-name = "Zasoby"
-url = "/resources.html"
-weight = 4
-
-[[main]]
-name = "Społeczność"
-url = "/community.html"
+name = "Q&A"
+url = "/q-and-a.html"
 weight = 5
 
 [[main]]
@@ -31,7 +21,7 @@ url = "/roadmap.html"
 weight = 6
 
 [[main]]
-name = "Publikacje"
+name = "Blog"
 url = "/publications/"
 weight = 7
 
@@ -39,33 +29,3 @@ weight = 7
 name = "Kontakt"
 url = "/contact.html"
 weight = 8
-
-[[footer]]
-name = "O nas"
-url = "/about.html"
-weight = 1
-
-[[footer]]
-name = "Programy"
-url = "/programs.html"
-weight = 2
-
-[[footer]]
-name = "Zasoby"
-url = "/resources.html"
-weight = 3
-
-[[footer]]
-name = "Publikacje"
-url = "/publications/"
-weight = 4
-
-[[footer]]
-name = "Polityka prywatnosci"
-url = "/privacy-policy.html"
-weight = 5
-
-[[footer]]
-name = "Licencje"
-url = "/licensing.html"
-weight = 6

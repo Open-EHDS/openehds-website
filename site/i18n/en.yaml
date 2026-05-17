@@ -12,3 +12,13 @@ search_initial_message: Type something to search...
 search_navigate: to navigate
 search_select: to select
 search_close: to close
+announcement_content: OpenEHDS Foundation is building open infrastructure for the European Health Data Space. Join us on the journey toward interoperable and trustworthy EHDS implementation.
+contact_full_name: Full Name
+contact_full_name_placeholder: John Doe
+contact_email: Mail
+contact_email_placeholder: john.doe@email.com
+contact_message: Anything else?
+contact_message_placeholder: Message goes here...
+contact_submit: Submit
+footer_copyright_name: OpenEHDS Foundation
+footer_legal_line: "**OpenEHDS Foundation**, KRS: 0001241248, ul. Aleja Jana Pawła II 43A lok. 37B, 01-001 Warsaw, Poland."

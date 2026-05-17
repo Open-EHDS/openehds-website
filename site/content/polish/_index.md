@@ -1,8 +1,11 @@
 ---
 banner:
-  title: "Otwarta i audytowalna infrastruktura dla secondary use w EHDS"
-  content: "OpenEHDS to neutralna, niekomercyjna inicjatywa fundacyjna tworząca interoperacyjne, domyślnie prywatnościowe i operacyjnie realistyczne komponenty dla EHDS. Koncentrujemy się na tym, by złożone procesy secondary use były zrozumiałe publicznie i praktyczne wdrożeniowo."
+  title: "Jeśli bliska jest Ci idea otwartej infrastruktury danych zdrowotnych w Europie, jesteś we właściwym miejscu."
+  content: "Budujemy otwartą infrastrukturę open-source, która pomaga organizacjom spełniać wymagania interoperacyjności EHDS - bezpiecznie, transparentnie i bez uzależnienia od jednego dostawcy."
   image: "/images/banner.png"
+  video: "https://www.youtube-nocookie.com/embed/7sCRBCjiOKc"
+  video_credit: "Źródło wideo: \"EU Healthcare Without Borders: The European Health Data Space Explained\", Komisja Europejska, YouTube."
+  video_credit_link: "https://www.youtube.com/watch?v=7sCRBCjiOKc"
   button:
     enable: true
     label: "Zobacz programy"
