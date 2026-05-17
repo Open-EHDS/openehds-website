@@ -26,6 +26,8 @@ Ten plik jest mapą instrukcji operacyjnych (runbooków) dla agenta.
   - Runbook przygotowania issue i wstępnej specyfikacji.
 - `docs/runbooks/atomowe-commity.md`
   - Runbook atomowych commitów dla skrótów `c`, `c+p` i `c+p+pr`.
+- `docs/runbooks/deploy-produkcji.md`
+  - Runbook automatycznego deployu produkcji przez GitHub Actions.
 
 ## Zasady tworzenia runbooków
 

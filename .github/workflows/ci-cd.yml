@@ -1,0 +1,100 @@
+name: CI/CD
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: openehds-website-production
+  cancel-in-progress: false
+
+jobs:
+  build:
+    name: Build Hugo site
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+        with:
+          fetch-depth: 0
+
+      - name: Check whitespace
+        run: |
+          if [ "$GITHUB_EVENT_NAME" = "pull_request" ]; then
+            git diff --check "${{ github.event.pull_request.base.sha }}...HEAD"
+          else
+            git diff-tree --check --no-commit-id -r HEAD
+          fi
+
+      - name: Build production site
+        run: docker compose -f compose.yaml run --rm hugo
+
+  deploy:
+    name: Deploy production
+    needs: build
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    environment: production
+
+    env:
+      PROD_SSH_HOST: ${{ secrets.PROD_SSH_HOST }}
+      PROD_SSH_PORT: ${{ secrets.PROD_SSH_PORT || '22' }}
+      PROD_SSH_USER: ${{ secrets.PROD_SSH_USER }}
+      PROD_SSH_KEY: ${{ secrets.PROD_SSH_KEY }}
+      PROD_SSH_KNOWN_HOSTS: ${{ secrets.PROD_SSH_KNOWN_HOSTS }}
+      PROD_DEPLOY_PATH: ${{ secrets.PROD_DEPLOY_PATH }}
+      PROD_HTTP_PORT: ${{ secrets.PROD_HTTP_PORT || '8088' }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v5
+
+      - name: Validate deployment secrets
+        run: |
+          test -n "$PROD_SSH_HOST"
+          test -n "$PROD_SSH_PORT"
+          test -n "$PROD_SSH_USER"
+          test -n "$PROD_SSH_KEY"
+          test -n "$PROD_SSH_KNOWN_HOSTS"
+          test -n "$PROD_DEPLOY_PATH"
+          test -n "$PROD_HTTP_PORT"
+
+      - name: Configure SSH
+        run: |
+          mkdir -p ~/.ssh
+          chmod 700 ~/.ssh
+          printf '%s\n' "$PROD_SSH_KEY" > ~/.ssh/openehds-production
+          printf '%s\n' "$PROD_SSH_KNOWN_HOSTS" > ~/.ssh/known_hosts
+          chmod 600 ~/.ssh/openehds-production
+          chmod 600 ~/.ssh/known_hosts
+
+      - name: Deploy over SSH
+        run: |
+          remote_env=$(
+            printf 'DEPLOY_PATH=%q DEPLOY_REF=%q OPEN_EHDS_HTTP_PORT=%q' \
+              "$PROD_DEPLOY_PATH" \
+              "main" \
+              "$PROD_HTTP_PORT"
+          )
+
+          ssh \
+            -i ~/.ssh/openehds-production \
+            -p "$PROD_SSH_PORT" \
+            -o IdentitiesOnly=yes \
+            "$PROD_SSH_USER@$PROD_SSH_HOST" \
+            "$remote_env bash -s" < .github/scripts/deploy-production.sh
+
+      - name: Verify production URLs
+        run: |
+          status=$(curl -sS -o /dev/null -w '%{http_code}' https://openehds.org/)
+          test "$status" = "200"
+
+          redirect=$(curl -sS -o /dev/null -w '%{http_code} %{redirect_url}' https://beta.openehds.org/)
+          test "$redirect" = "301 https://openehds.org/"

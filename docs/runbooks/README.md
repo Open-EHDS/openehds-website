@@ -11,6 +11,7 @@ Katalog zawiera runbooki, czyli powtarzalne instrukcje operacyjne dla agenta.
 - [`diagnostyka-ci.md`](diagnostyka-ci.md) - diagnostyka błędów CI.
 - [`przygotowanie-issue-i-specyfikacji.md`](przygotowanie-issue-i-specyfikacji.md) - przygotowanie issue i specyfikacji.
 - [`atomowe-commity.md`](atomowe-commity.md) - dzielenie zmian na atomowe commity.
+- [`deploy-produkcji.md`](deploy-produkcji.md) - automatyczny deploy produkcji przez GitHub Actions.
 - `*.md` - runbooki dla konkretnych procesów.
 
 ## Jak używać
