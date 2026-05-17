@@ -20,8 +20,9 @@ Workflow `.github/workflows/ci-cd.yml` wymaga sekretów środowiska `production`
 - `PROD_SSH_HOST` - host SSH dostępny z GitHub Actions runnera.
 - `PROD_SSH_PORT` - port SSH; gdy brak sekretu, workflow używa `22`.
 - `PROD_SSH_USER` - użytkownik SSH z dostępem do katalogu deployu i Dockera.
+- `PROD_SSH_PROXY_JUMP` - opcjonalny jump host SSH; obecnie używany jako `fizol@office.eengine.pl`, bo backend jest pod adresem prywatnym.
 - `PROD_SSH_KEY` - prywatny klucz SSH do deployu.
-- `PROD_SSH_KNOWN_HOSTS` - wpis `known_hosts` dla hosta produkcyjnego.
+- `PROD_SSH_KNOWN_HOSTS` - wpisy `known_hosts` dla hosta produkcyjnego i jump hosta, jeśli jest używany.
 - `PROD_DEPLOY_PATH` - ścieżka katalogu z checkoutem repozytorium na serwerze; obecnie `/mnt/docker/home-docker/openehds-website`.
 - `PROD_HTTP_PORT` - port publikowany przez `web`; domyślnie `8088`.
 
