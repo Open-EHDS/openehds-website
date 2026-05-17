@@ -7,7 +7,7 @@ Automatyzować publikację `main` na produkcję `https://openehds.org/` przez Gi
 ## Aktualny model
 
 - Produkcyjna domena publiczna: `https://openehds.org/`.
-- `https://beta.openehds.org/` oraz `https://www.openehds.org/` są przekierowaniami `301` na `https://openehds.org/`.
+- Obecnie `https://beta.openehds.org/` oraz `https://www.openehds.org/` są przekierowaniami `301` na `https://openehds.org/`, ale `beta` nie jest warunkiem poprawności deployu.
 - Nginx Proxy Manager kieruje `openehds.org` na backend HTTP aplikacji.
 - Backend produkcyjny działa na `aihd.eengine.pl` w katalogu `/mnt/docker/home-docker/openehds-website`.
 - Produkcyjny checkout repozytorium działa z `compose.yaml` i publikuje kontener `web` na porcie ustawionym przez `OPEN_EHDS_HTTP_PORT`.
@@ -38,8 +38,7 @@ Workflow `.github/workflows/ci-cd.yml` wymaga sekretów środowiska `production`
    - wykonuje build Hugo przez Docker Compose,
    - odtwarza kontener `web`.
 5. Workflow sprawdza publicznie:
-   - `https://openehds.org/` zwraca `200`,
-   - `https://beta.openehds.org/` zwraca `301` do `https://openehds.org/`.
+   - `https://openehds.org/` zwraca `200`.
 
 ## Weryfikacja
 
@@ -47,13 +46,11 @@ Po deployu sprawdź:
 
 ```sh
 curl -I https://openehds.org/
-curl -I https://beta.openehds.org/
 ```
 
 Oczekiwane:
 
-- `https://openehds.org/` zwraca `200`,
-- `https://beta.openehds.org/` zwraca `301` do `https://openehds.org/`.
+- `https://openehds.org/` zwraca `200`.
 
 ## Typowe problemy
 

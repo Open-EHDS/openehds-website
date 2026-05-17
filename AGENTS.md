@@ -24,7 +24,7 @@ Ten plik definiuje podstawowe zasady dla agentów (AI i automatyzacji) pracując
 - Commit wykonuj wyłącznie po wyraźnym sygnale człowieka.
 - Repozytorium na serwerze produkcyjnym aktualizuj wyłącznie po wyraźnym sygnale człowieka.
 - Za bieżące środowisko produkcyjne uznawaj wdrożenie dostępne pod `https://openehds.org`.
-- `https://beta.openehds.org` jest przekierowaniem na produkcję, nie osobnym środowiskiem.
+- Obecnie `https://beta.openehds.org` jest przekierowaniem na produkcję, ale nie traktuj tego jako wymogu CI/CD ani gwarancji stałej roli tej domeny.
 
 ## Uruchamianie środowisk
 

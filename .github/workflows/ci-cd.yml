@@ -111,6 +111,3 @@ jobs:
         run: |
           status=$(curl -sS -o /dev/null -w '%{http_code}' https://openehds.org/)
           test "$status" = "200"
-
-          redirect=$(curl -sS -o /dev/null -w '%{http_code} %{redirect_url}' https://beta.openehds.org/)
-          test "$redirect" = "301 https://openehds.org/"
