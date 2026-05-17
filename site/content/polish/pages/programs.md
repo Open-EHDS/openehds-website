@@ -1,44 +1,47 @@
 ---
-title: "Programy"
-meta_title: "Programy"
-description: "Programy OpenEHDS dla reużywalnych komponentów secondary use w EHDS."
+title: "Download"
+meta_title: "Download"
+description: "Connectory OpenEHDS do integracji z systemem P1 oraz Platformą Usług Inteligentnych."
 draft: false
 ---
 
-Programy OpenEHDS koncentrują się na obszarach, w których secondary use wymaga największej precyzji regulacyjnej, technicznej i operacyjnej.
+## Connector do raportowania zdarzeń medycznych do systemu P1
 
-## 1. Zestawianie zbiorów świadome data permit
+Connector do raportowania zdarzeń medycznych do systemu P1 (Platforma e-Zdrowie) wspiera obowiązkowy proces przekazywania informacji o kontaktach pacjenta z podmiotami leczniczymi oraz praktykami zawodowymi. Dane raportowane do P1 zasilają Internetowe Konto Pacjenta (IKP) oraz umożliwiają wymianę Elektronicznej Dokumentacji Medycznej (EDM) pomiędzy placówkami.
 
-Strumień obejmuje komponenty przygotowujące tymczasowe zbiory danych zgodne z zatwierdzonym permit i celem przetwarzania.
+Obowiązek raportowania dotyczy wszystkich podmiotów wykonujących działalność leczniczą - w tym POZ, AOS, szpitali oraz praktyk indywidualnych i grupowych - niezależnie od posiadania kontraktu z NFZ.
 
-* interpretacja data permit i ograniczeń maszynowo czytelnych
-* pipeline'y zestawiania danych ograniczonych permitem i podstawą prawną
-* kontrola cyklu życia tymczasowych produktów danych
+Projekt został przygotowany z myślą o integratorach i zespołach technicznych, które chcą realizować wsadowe przetwarzanie operacji przekazywanych jako pliki JSON oraz odbierać wyniki w postaci:
 
-## 2. Egzekwowanie polityk i reguł dostępu
+* plików JSON
+* wpisów audytowych
+* technicznych logów przetwarzania
 
-Strumień obejmuje komponenty egzekwujące zasady dostępu i zgodności na każdym etapie przetwarzania.
+Connector obsługuje zarówno jednorazowe uruchomienia typu run-once, jak i tryb ciągły watch oparty o Sidekiq, sidekiq-cron oraz Redis.
 
-* obsługa opt-out i wyjątków prawnych
-* egzekwowanie ograniczenia celu i granic dostępu
-* audytowalne logi decyzji polityk
+**Dostępność:** gotowy, w trakcie testów, niebawem będzie opublikowany na GitHubie fundacji.
 
-## 3. Secure processing i rozliczalność
+## Connector do PUI (Platforma Usług Inteligentnych)
 
-Strumień obejmuje wzorce integracyjne dla secure processing environments oraz pełnej audytowalności.
+Connector do PUI (Platforma Usług Inteligentnych) został przygotowany jako komponent integracyjny wspierający komunikację z usługami cyfrowymi wykorzystywanymi w nowoczesnym ekosystemie ochrony zdrowia.
 
-* konektory między data holderami, access bodies i secure environments
-* komponenty audytu, logowania i data lineage
-* mechanizmy TTL i kontrolowanego usuwania danych
+Projekt umożliwia budowę bezpiecznych i interoperacyjnych integracji pomiędzy systemami medycznymi, platformami usługowymi oraz usługami administracji publicznej związanymi z przetwarzaniem danych zdrowotnych i procesami cyfrowymi.
 
-## 4. Interoperacyjność i adaptacja krajowa
+Connector został zaprojektowany z myślą o:
 
-Strumień obejmuje reużywalne mapowania i transformacje danych zgodne z EHDS i FHIR.
+* integratorach systemów
+* dostawcach oprogramowania medycznego
+* zespołach wdrożeniowych
+* organizacjach budujących rozwiązania zgodne z wymaganiami interoperacyjności i cyfrowej administracji zdrowotnej
 
-* profile interoperacyjności i logika transformacji
-* wzorce implementacyjne adaptowalne do modeli krajowych
-* artefakty referencyjne możliwe do wykorzystania w zamówieniach publicznych
+Główne założenia projektu obejmują:
 
-## Granice programu
+* modularną architekturę integracyjną
+* obsługę komunikacji usługowej
+* możliwość realizacji procesów wsadowych i asynchronicznych
+* audytowalność operacji
+* łatwą adaptację do zmieniających się wymagań regulacyjnych i technicznych
 
-OpenEHDS tworzy komponenty i architektury referencyjne. Nie pełni roli health data access body, nie hostuje danych medycznych i nie działa jako operator secure processing environment.
+Connector może stanowić element szerszej infrastruktury interoperacyjnej wspierającej cyfryzację ochrony zdrowia oraz wdrażanie rozwiązań zgodnych z kierunkiem European Health Data Space (EHDS).
+
+**Dostępność:** gotowy, w trakcie testów, niebawem będzie opublikowany na GitHubie fundacji.

@@ -8,48 +8,20 @@ banner:
   video_credit_link: "https://www.youtube.com/watch?v=7sCRBCjiOKc"
   button:
     enable: true
-    label: "Zobacz programy"
+    label: "Download"
     link: "/pl/programs.html"
 
 features:
-  - title: "Misja osadzona w realiach EHDS"
-    image: "/images/service-1.png"
-    content: "OpenEHDS opiera się na prostym założeniu: infrastruktura EHDS musi być interoperacyjna z założenia, domyślnie chroniąca prywatność, realistyczna operacyjnie i zrozumiała publicznie."
+  - title: "Otwarta infrastruktura dla realiów EHDS"
+    image: "/images/open-infrastructure-pl.png"
+    content: "OpenEHDS to otwarta, społecznościowa inicjatywa skoncentrowana na budowie komponentów open-source zgodnych z EHDS, które umożliwiają bezpieczną, interoperacyjną i gotową regulacyjnie wymianę elektronicznych danych zdrowotnych w Europie. Naszą misją jest wspieranie świadczeniodawców, instytucji publicznych, badaczy i dostawców technologii w przygotowaniu do działania w ramach European Health Data Space przez transparentne, audytowalne i reużywalne building blocks techniczne, które odzwierciedlają prawne, governance'owe i operacyjne realia EHDS - nie abstrakcyjne ani idealizowane modele. Inspirowane zasadami stojącymi za Wikipedią i otwartymi dobrami cyfrowymi, OpenEHDS ma działać jako neutralna, niekomercyjna fundacja umożliwiająca współpracę między sektorami i ponad granicami."
     bulletpoints:
-      - "Model neutralnej i niekomercyjnej fundacji"
-      - "Współpraca międzysektorowa i międzynarodowa"
-      - "Praktyczny pomost między ramami prawnymi a implementacją techniczną"
-      - "Współtworzenie z udziałem instytucji, regulatorów, organizacji pacjenckich, nauki i sektora technologicznego"
+      - "Interoperacyjna z założenia"
+      - "Domyślnie chroniąca prywatność"
+      - "Realistyczna operacyjnie"
+      - "Zrozumiała publicznie"
     button:
       enable: true
       label: "O fundacji"
       link: "/pl/about.html"
-
-  - title: "Koncentracja na secondary use od początku do końca"
-    image: "/images/service-2.png"
-    content: "Skupiamy się na secondary use danych medycznych w EHDS, gdzie złożoność regulacyjna, techniczna i organizacyjna jest największa. Zakres obejmuje cały cykl życia kontrolowanego dostępu i przetwarzania."
-    bulletpoints:
-      - "Przygotowanie zbiorów danych do wtórnych zastosowań"
-      - "Kontrolowany dostęp oparty o data permit ograniczony czasowo i celowo"
-      - "Działanie w secure processing environments"
-      - "Audytowalność, przejrzystość i zarządzanie cyklem życia danych"
-      - "Egzekwowanie zasad opt-out, ograniczenia celu i wyjątków prawnych"
-    button:
-      enable: true
-      label: "Zobacz zakres"
-      link: "/pl/resources.html"
-
-  - title: "Otwarte komponenty, nie operator danych"
-    image: "/images/service-3.png"
-    content: "EHDS wymaga kontrolowanej warstwy mediacji danych. OpenEHDS czyni tę warstwę przejrzystą i reużywalną przez otwarte komponenty referencyjne, jednocześnie nie pełniąc roli operatora danych ani organu permitowego."
-    bulletpoints:
-      - "Silniki zestawiania zbiorów świadome data permit"
-      - "Moduły egzekwowania polityk dostępu i celu przetwarzania"
-      - "Konektory między data holderami, access bodies i secure environments"
-      - "Mechanizmy audytu, logowania, lineage, TTL i kontrolowanego usuwania"
-      - "Brak roli health data access body, operatora SPE i platformy komercjalizacji danych"
-    button:
-      enable: true
-      label: "Przeczytaj roadmapę"
-      link: "/pl/roadmap.html"
 ---

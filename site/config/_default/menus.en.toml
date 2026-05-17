@@ -3,29 +3,29 @@
 [[main]]
 name = "About Us"
 url = "/about.html"
+weight = 1
+
+[[main]]
+name = "Roadmap"
+url = "/roadmap.html"
 weight = 2
 
 [[main]]
-name = "Programs"
+name = "Download"
 url = "/programs.html"
 weight = 3
 
 [[main]]
 name = "Q&A"
 url = "/q-and-a.html"
-weight = 5
-
-[[main]]
-name = "Roadmap"
-url = "/roadmap.html"
-weight = 6
+weight = 4
 
 [[main]]
 name = "Blog"
 url = "/publications/"
-weight = 7
+weight = 5
 
 [[main]]
 name = "Contact"
 url = "/contact.html"
-weight = 8
+weight = 6

@@ -1,5 +1,5 @@
 ---
-enable: true
+enable: false
 title: "Perspektywy interesariuszy"
 description: "Wypowiedzi odzwierciedlające kluczowe potrzeby interesariuszy EHDS secondary use."
 
