@@ -19,7 +19,7 @@ Projekt został przygotowany z myślą o integratorach i zespołach technicznych
 
 Connector obsługuje zarówno jednorazowe uruchomienia typu run-once, jak i tryb ciągły watch oparty o Sidekiq, sidekiq-cron oraz Redis.
 
-**Dostępność:** gotowy, w trakcie testów, niebawem będzie opublikowany na GitHubie fundacji.
+**Dostępność:** gotowy, w trakcie testów, niebawem będzie opublikowany na [GitHubie fundacji](https://github.com/Open-EHDS).
 
 ## Connector do PUI (Platforma Usług Inteligentnych)
 
@@ -44,4 +44,4 @@ Główne założenia projektu obejmują:
 
 Connector może stanowić element szerszej infrastruktury interoperacyjnej wspierającej cyfryzację ochrony zdrowia oraz wdrażanie rozwiązań zgodnych z kierunkiem European Health Data Space (EHDS).
 
-**Dostępność:** gotowy, w trakcie testów, niebawem będzie opublikowany na GitHubie fundacji.
+**Dostępność:** gotowy, w trakcie testów, niebawem będzie opublikowany na [GitHubie fundacji](https://github.com/Open-EHDS).

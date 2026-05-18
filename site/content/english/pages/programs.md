@@ -19,7 +19,7 @@ The project was prepared for integrators and technical teams that want to proces
 
 The connector supports both one-off run-once execution and continuous watch mode based on Sidekiq, sidekiq-cron, and Redis.
 
-**Availability:** ready, currently under testing, and planned for publication soon on the foundation's GitHub.
+**Availability:** ready, currently under testing, and planned for publication soon on the [foundation's GitHub](https://github.com/Open-EHDS).
 
 ## Connector for PUI (Intelligent Services Platform)
 
@@ -44,4 +44,4 @@ The main design assumptions include:
 
 The connector can be part of a broader interoperable infrastructure supporting healthcare digitisation and the implementation of solutions aligned with the direction of the European Health Data Space (EHDS).
 
-**Availability:** ready, currently under testing, and planned for publication soon on the foundation's GitHub.
+**Availability:** ready, currently under testing, and planned for publication soon on the [foundation's GitHub](https://github.com/Open-EHDS).

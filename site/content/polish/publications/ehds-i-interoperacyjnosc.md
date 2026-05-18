@@ -4,7 +4,7 @@ slug: "ehds-i-interoperacyjnosc"
 meta_title: ""
 description: "Jak EHDS zmienia interoperacyjność z preferencji zakupowej w wymóg regulacyjny."
 date: 2026-05-12T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/interoperability.png"
 categories: ["EHDS", "Interoperacyjność"]
 author: "Tomasz Kulbacki"
 tags: ["EHR", "interoperacyjność", "compliance"]

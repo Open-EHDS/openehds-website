@@ -4,7 +4,7 @@ slug: "przyszlosc-danych-zdrowotnych-w-europie-zalezy-od-zaufania"
 meta_title: ""
 description: "Dlaczego zaufanie, transparentność i infrastruktura interesu publicznego są centralne dla wdrożenia EHDS."
 date: 2026-05-17T15:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/trust.png"
 categories: ["EHDS", "Zaufanie"]
 author: "Ania Adamiak"
 tags: ["zaufanie", "infrastruktura publiczna", "transparentność"]

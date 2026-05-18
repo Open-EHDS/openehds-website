@@ -4,7 +4,7 @@ slug: "from-regulation-to-implementation"
 meta_title: ""
 description: "What OpenEHDS contributes as EHDS moves from legal framework to operational infrastructure."
 date: 2026-05-16T15:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/regulation-to-implementation.png"
 categories: ["EHDS", "OpenEHDS"]
 author: "Ania Adamiak"
 tags: ["implementation", "OpenEHDS", "infrastructure"]

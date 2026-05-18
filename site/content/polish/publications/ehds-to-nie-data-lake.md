@@ -4,7 +4,7 @@ slug: "ehds-to-nie-data-lake"
 meta_title: ""
 description: "Dlaczego EHDS jest ramą governance i infrastruktury, a nie centralnym repozytorium danych zdrowotnych."
 date: 2026-05-13T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/not-a-data-lake.png"
 categories: ["EHDS", "Architektura"]
 author: "Ania Adamiak"
 tags: ["architektura", "governance", "secondary use"]

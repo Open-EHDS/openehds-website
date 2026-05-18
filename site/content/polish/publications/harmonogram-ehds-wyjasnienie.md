@@ -4,7 +4,7 @@ slug: "harmonogram-ehds-wyjasnienie"
 meta_title: ""
 description: "Praktyczne omówienie kamieni milowych wdrażania EHDS w latach 2027-2035."
 date: 2026-05-14T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/timeline.png"
 categories: ["EHDS", "Roadmapa"]
 author: "Tomasz Kulbacki"
 tags: ["harmonogram", "wdrożenie", "roadmapa"]

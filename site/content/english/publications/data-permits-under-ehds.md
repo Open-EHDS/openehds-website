@@ -4,7 +4,7 @@ slug: "data-permits-under-ehds"
 meta_title: ""
 description: "A practical look at the EHDS data permit lifecycle and its technical consequences."
 date: 2026-05-17T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/data-permits.png"
 categories: ["EHDS", "Data Permits"]
 author: "Tomasz Kulbacki"
 tags: ["data permits", "HDAB", "workflow"]

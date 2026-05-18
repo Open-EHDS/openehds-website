@@ -4,7 +4,7 @@ slug: "opt-out-w-ehds"
 meta_title: ""
 description: "Dlaczego opt-out jest rozproszonym problemem egzekwowania polityk, a nie tylko mechanizmem zgody."
 date: 2026-05-15T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/opt-out.png"
 categories: ["EHDS", "Governance"]
 author: "Ania Adamiak"
 tags: ["opt-out", "egzekwowanie polityk", "zaufanie"]

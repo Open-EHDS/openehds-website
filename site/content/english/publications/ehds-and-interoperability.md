@@ -4,7 +4,7 @@ slug: "ehds-and-interoperability"
 meta_title: ""
 description: "How EHDS turns interoperability from a procurement preference into a regulatory requirement."
 date: 2026-05-12T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/interoperability.png"
 categories: ["EHDS", "Interoperability"]
 author: "Tomasz Kulbacki"
 tags: ["EHR", "interoperability", "compliance"]

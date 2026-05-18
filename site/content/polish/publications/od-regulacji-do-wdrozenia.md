@@ -4,7 +4,7 @@ slug: "od-regulacji-do-wdrozenia"
 meta_title: ""
 description: "Rola OpenEHDS w przejściu EHDS od ram prawnych do infrastruktury operacyjnej."
 date: 2026-05-16T15:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/regulation-to-implementation.png"
 categories: ["EHDS", "OpenEHDS"]
 author: "Ania Adamiak"
 tags: ["wdrożenie", "OpenEHDS", "infrastruktura"]

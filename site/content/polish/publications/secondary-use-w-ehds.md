@@ -4,7 +4,7 @@ slug: "secondary-use-w-ehds"
 meta_title: ""
 description: "Jak EHDS zmienia secondary use w proces oparty na pozwoleniach, celu i egzekwowaniu infrastrukturalnym."
 date: 2026-05-10T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/secondary-use.png"
 categories: ["EHDS", "Secondary Use"]
 author: "Ania Adamiak"
 tags: ["secondary use", "data permit", "dostęp"]

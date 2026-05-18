@@ -4,7 +4,7 @@ slug: "opt-out-in-ehds"
 meta_title: ""
 description: "Why opt-out is a distributed policy enforcement problem, not only a consent mechanism."
 date: 2026-05-15T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/opt-out.png"
 categories: ["EHDS", "Governance"]
 author: "Ania Adamiak"
 tags: ["opt-out", "policy enforcement", "trust"]

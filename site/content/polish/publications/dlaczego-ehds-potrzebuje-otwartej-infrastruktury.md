@@ -4,7 +4,7 @@ slug: "dlaczego-ehds-potrzebuje-otwartej-infrastruktury"
 meta_title: ""
 description: "Dlaczego reużywalne i audytowalne komponenty wdrożeniowe są niezbędne dla sukcesu EHDS."
 date: 2026-05-11T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/open-infrastructure.png"
 categories: ["EHDS", "Open Source"]
 author: "Ania Adamiak"
 tags: ["open source", "infrastruktura", "vendor lock-in"]
