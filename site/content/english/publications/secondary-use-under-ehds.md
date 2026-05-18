@@ -4,7 +4,7 @@ slug: "secondary-use-under-ehds"
 meta_title: ""
 description: "How EHDS turns secondary use into a permit-based, purpose-bound, and infrastructure-enforced workflow."
 date: 2026-05-10T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/secondary-use.png"
 categories: ["EHDS", "Secondary Use"]
 author: "Ania Adamiak"
 tags: ["secondary use", "data permits", "access"]

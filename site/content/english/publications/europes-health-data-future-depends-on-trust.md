@@ -4,7 +4,7 @@ slug: "europes-health-data-future-depends-on-trust"
 meta_title: ""
 description: "Why trust, transparency, and public-interest infrastructure are central to EHDS implementation."
 date: 2026-05-17T15:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/trust.png"
 categories: ["EHDS", "Trust"]
 author: "Ania Adamiak"
 tags: ["trust", "public infrastructure", "transparency"]

@@ -4,7 +4,7 @@ slug: "ehds-timeline-explained"
 meta_title: ""
 description: "A practical reading of the EHDS implementation milestones from 2027 to 2035."
 date: 2026-05-14T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/timeline.png"
 categories: ["EHDS", "Roadmap"]
 author: "Tomasz Kulbacki"
 tags: ["timeline", "implementation", "roadmap"]

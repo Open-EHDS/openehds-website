@@ -4,7 +4,7 @@ slug: "ehds-compliance-by-design"
 meta_title: ""
 description: "How EHDS embeds governance directly into technical systems and operational workflows."
 date: 2026-05-10T15:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/compliance-by-design.png"
 categories: ["EHDS", "Compliance"]
 author: "Tomasz Kulbacki"
 tags: ["compliance", "governance", "auditability"]

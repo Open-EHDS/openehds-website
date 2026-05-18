@@ -4,7 +4,7 @@ slug: "secure-processing-environments-explained"
 meta_title: ""
 description: "Why secure processing environments are central to EHDS architecture and compliance."
 date: 2026-05-16T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/secure-processing.png"
 categories: ["EHDS", "Infrastructure"]
 author: "Tomasz Kulbacki"
 tags: ["secure processing", "auditability", "compliance"]

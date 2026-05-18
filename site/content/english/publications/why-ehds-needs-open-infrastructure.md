@@ -4,7 +4,7 @@ slug: "why-ehds-needs-open-infrastructure"
 meta_title: ""
 description: "Why reusable, auditable implementation components are essential for EHDS success."
 date: 2026-05-11T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/open-infrastructure.png"
 categories: ["EHDS", "Open Source"]
 author: "Ania Adamiak"
 tags: ["open source", "infrastructure", "vendor lock-in"]

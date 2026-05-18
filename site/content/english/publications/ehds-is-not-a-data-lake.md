@@ -4,7 +4,7 @@ slug: "ehds-is-not-a-data-lake"
 meta_title: ""
 description: "Why EHDS is a governed infrastructure framework, not a central European health data repository."
 date: 2026-05-13T09:00:00Z
-image: "/images/image-placeholder.png"
+image: "/images/blog-covers/not-a-data-lake.png"
 categories: ["EHDS", "Architecture"]
 author: "Ania Adamiak"
 tags: ["architecture", "governance", "secondary use"]

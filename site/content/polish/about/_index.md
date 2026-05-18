@@ -2,7 +2,7 @@
 title: "O nas"
 meta_title: "O OpenEHDS"
 description: "Misja, zakres i model zarządzania OpenEHDS dla secondary use w EHDS."
-image: "/images/image-placeholder.png"
+image: "/images/about-open-ehds.png"
 layout: "about"
 draft: false
 ---
@@ -76,10 +76,6 @@ Bez wspólnych, otwartych i audytowalnych komponentów:
 
 OpenEHDS istnieje po to, aby przekształcić EHDS z ramy prawnej we wspólną, techniczną rzeczywistość. Inicjatywa zmniejsza też lukę wiedzy wokół EHDS przez otwarte zasoby edukacyjne i dialog między interesariuszami.
 
-## Open source
-
-* Organizacja GitHub: [Open-EHDS na GitHub](https://github.com/Open-EHDS)
-
 ## Założyciele Fundacji
 
 ### Tomasz Kulbacki
@@ -107,3 +103,7 @@ Ania jest współzałożycielką i CEO EENGINE Software House. Prowadziła liczn
 Jej doświadczenie łączy technologię i biznes z akademickimi podstawami w biologii ewolucyjnej oraz MBA, łącząc myślenie naukowe, perspektywę systemową i przywództwo strategiczne.
 
 W ramach OpenEHDS koncentruje się na przekładaniu wymagań regulacyjnych i interoperacyjności EHDS na praktyczne, otwarte i gotowe do wdrożenia podejścia infrastrukturalne. Jest silną orędowniczką otwartych standardów, transparentnego governance i współpracy open-source jako fundamentów zaufanych europejskich ekosystemów danych zdrowotnych.
+
+## Open source
+
+* Organizacja GitHub: [Open-EHDS na GitHub](https://github.com/Open-EHDS)
