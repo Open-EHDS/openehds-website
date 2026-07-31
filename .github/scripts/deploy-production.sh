@@ -19,6 +19,5 @@ git pull --ff-only origin "$DEPLOY_REF"
 
 printf 'OPEN_EHDS_HTTP_PORT=%s\n' "$OPEN_EHDS_HTTP_PORT" > .env.deploy
 
-docker compose --env-file .env.deploy -f compose.yaml run --rm hugo
-docker compose --env-file .env.deploy -f compose.yaml up -d --build web
+docker compose --env-file .env.deploy -f compose.yaml up -d --force-recreate web
 docker compose --env-file .env.deploy -f compose.yaml ps

@@ -28,17 +28,17 @@ Workflow `.github/workflows/ci-cd.yml` wymaga sekretów środowiska `production`
 
 ## Przebieg
 
-1. Pull Request uruchamia build produkcyjny Hugo.
-2. Push do `main` uruchamia build produkcyjny Hugo.
+1. Pull Request uruchamia walidację konfiguracji Compose i publicznych ścieżek statycznej strony.
+2. Push do `main` uruchamia tę samą walidację.
 3. Po udanym buildzie workflow łączy się po SSH na produkcję.
 4. Skrypt `.github/scripts/deploy-production.sh`:
    - przerywa deploy, jeśli checkout produkcyjny ma lokalne zmiany,
    - wykonuje `git pull --ff-only origin main`,
    - zapisuje `.env.deploy` z `OPEN_EHDS_HTTP_PORT`,
-   - wykonuje build Hugo przez Docker Compose,
-   - odtwarza kontener `web`.
+   - odtwarza kontener `web`, który bezpośrednio serwuje zawartość `site/static`.
 5. Workflow sprawdza publicznie:
-   - `https://openehds.org/` zwraca `200`.
+   - `https://openehds.org/` zwraca `200`,
+   - wersje `/pl/` i `/en/` zwracają `200`.
 
 ## Weryfikacja
 
@@ -46,11 +46,13 @@ Po deployu sprawdź:
 
 ```sh
 curl -I https://openehds.org/
+curl -I https://openehds.org/pl/
+curl -I https://openehds.org/en/
 ```
 
 Oczekiwane:
 
-- `https://openehds.org/` zwraca `200`.
+- wszystkie trzy adresy zwracają `200`.
 
 ## Typowe problemy
 
