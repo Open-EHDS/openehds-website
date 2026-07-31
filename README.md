@@ -1,6 +1,6 @@
 # strona OpenEHDS.org
 
-Repozytorium zawiera stronę fundacji OpenEHDS budowaną w oparciu o Hugo oraz zmodyfikowany szablon Hugoplate.
+Repozytorium zawiera dwujęzyczną, statyczną stronę Fundacji OpenEHDS serwowaną przez nginx. Publiczne widoki znajdują się w `site/static/pl/` oraz `site/static/en/`, a wejście pod `/` przekierowuje użytkownika do wersji dopasowanej do języka przeglądarki.
 
 ## Struktura pracy
 
