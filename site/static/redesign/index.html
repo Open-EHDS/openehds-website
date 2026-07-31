@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="OpenEHDS — otwarta infrastruktura dla Europejskiej Przestrzeni Danych Zdrowotnych.">
+  <title>OpenEHDS — otwarta infrastruktura danych zdrowotnych</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="OpenEHDS — strona główna">
+      <img src="assets/openehds-logo-light.png" alt="OpenEHDS">
+    </a>
+    <nav class="desktop-nav" aria-label="Główna nawigacja">
+      <a href="connectors.html">Connectory</a>
+      <a href="about.html">O nas</a>
+      <a href="blog.html">Blog</a>
+      <a href="https://github.com/Open-EHDS" target="_blank" rel="noreferrer">GitHub ↗</a>
+    </nav>
+    <div class="lang-switch"><span>PL</span><a href="en/index.html">EN</a></div>
+    <a class="header-cta" href="#kontakt">Dołącz do nas <span>↗</span></a>
+    <button class="menu-button" aria-label="Otwórz menu" aria-expanded="false"><span></span><span></span></button>
+  </header>
+
+  <main id="top">
+    <section class="hero">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="hero-grid" aria-hidden="true"></div>
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span></span> Open source dla zdrowia w Europie</p>
+        <h1>Dane zdrowotne<br>powinny <em>łączyć,</em><br>nie ograniczać.</h1>
+        <p class="hero-lead">Budujemy otwartą infrastrukturę, która pomaga organizacjom bezpiecznie wymieniać dane i przygotować się na EHDS — bez uzależnienia od jednego dostawcy.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#kontakt">Współtwórz OpenEHDS <span>↗</span></a>
+          <a class="text-link" href="#jak-dzialamy">Zobacz, jak działamy <span>↓</span></a>
+        </div>
+      </div>
+      <div class="data-orbit" aria-label="Wizualizacja bezpiecznej wymiany danych">
+        <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="orbit orbit-c"></div>
+        <div class="core"><span class="core-cross">+</span><small>Open<br>EHDS</small></div>
+        <div class="node node-a"><b>01</b><span>Pacjent</span></div>
+        <div class="node node-b"><b>02</b><span>Placówka</span></div>
+        <div class="node node-c"><b>03</b><span>Badania</span></div>
+        <div class="signal signal-a"></div><div class="signal signal-b"></div><div class="signal signal-c"></div>
+      </div>
+      <div class="hero-foot">
+        <span>Transparentnie</span><span>Interoperacyjnie</span><span>Bezpiecznie</span>
+      </div>
+    </section>
+
+    <section class="manifesto section" id="dlaczego">
+      <div class="section-label reveal"><span>01</span> Dlaczego OpenEHDS</div>
+      <div class="manifesto-copy reveal">
+        <h2>Europa potrzebuje wspólnego języka dla danych zdrowotnych.</h2>
+        <p>EHDS zmienia sposób, w jaki dane medyczne przepływają między krajami, instytucjami i systemami. My przekładamy regulacje na praktyczne, otwarte komponenty — gotowe do audytu, adaptacji i ponownego użycia.</p>
+      </div>
+    </section>
+
+    <section class="principles section" id="jak-dzialamy">
+      <div class="section-label reveal"><span>02</span> Fundamenty</div>
+      <div class="cards">
+        <article class="card card-featured reveal">
+          <div class="card-number">01</div>
+          <div class="card-icon interoperability" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+          <h3>Interoperacyjność<br>od początku</h3>
+          <p>Budujemy rozwiązania, które rozmawiają z istniejącymi systemami i wspierają europejskie standardy.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-number">02</div>
+          <div class="card-icon shield" aria-hidden="true"><i></i></div>
+          <h3>Prywatność<br>domyślnie</h3>
+          <p>Bezpieczeństwo, transparentność i kontrola nad danymi są częścią architektury — nie dodatkiem.</p>
+        </article>
+        <article class="card reveal">
+          <div class="card-number">03</div>
+          <div class="card-icon open" aria-hidden="true"><i></i><i></i></div>
+          <h3>Otwartość,<br>która działa</h3>
+          <p>Publiczny kod, audytowalne decyzje i komponenty możliwe do wdrożenia w realnym środowisku.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="home-poc section">
+      <a class="home-poc-card reveal" href="blog-poc-secondary-use.html">
+        <div class="home-poc-copy">
+          <div class="section-label"><span>POC</span> Projekt w praktyce</div>
+          <h2>Od metadanych do<br><em>bezpiecznego wyniku.</em></h2>
+          <p>Zobacz, jak projektujemy pełny proces EHDS Secondary Use — z kontrolą dostępu, Secure Processing Environment i audytowalnym eksportem rezultatów.</p>
+          <div class="home-poc-link">Poznaj architekturę PoC <span>↗</span></div>
+        </div>
+        <div class="home-poc-visual" aria-hidden="true">
+          <div class="hpv-grid"></div>
+          <div class="hpv-step hpv-a"><b>01</b><span>Dane</span></div>
+          <div class="hpv-arrow">→</div>
+          <div class="hpv-step hpv-b"><b>06</b><span>Permit</span></div>
+          <div class="hpv-arrow">→</div>
+          <div class="hpv-step hpv-core"><b>09</b><span>SPE</span><i></i></div>
+          <div class="hpv-arrow">→</div>
+          <div class="hpv-step hpv-d"><b>12</b><span>Wynik</span></div>
+          <div class="hpv-rail"><span>GOVERNANCE</span><span>SECURITY</span><span>AUDIT</span></div>
+        </div>
+      </a>
+    </section>
+
+    <section class="flow-section section" id="dla-kogo">
+      <div class="flow-visual reveal">
+        <div class="flow-line"></div>
+        <div class="flow-dot fd-1"></div><div class="flow-dot fd-2"></div><div class="flow-dot fd-3"></div>
+        <div class="flow-panel fp-1"><small>WEJŚCIE</small><strong>Systemy lokalne</strong><span>FHIR · EHR · rejestry</span></div>
+        <div class="flow-panel fp-2"><small>WARSTWA OTWARTA</small><strong>OpenEHDS</strong><span>standardy · zgody · audyt</span></div>
+        <div class="flow-panel fp-3"><small>REZULTAT</small><strong>Bezpieczna wymiana</strong><span>ponad granicami i silosami</span></div>
+      </div>
+      <div class="flow-copy reveal">
+        <div class="section-label"><span>03</span> Wspólna infrastruktura</div>
+        <h2>Jedna przestrzeń.<br>Wiele perspektyw.</h2>
+        <p>Łączymy wiedzę technologii, ochrony zdrowia, administracji i nauki. Tak powstają rozwiązania użyteczne dla wszystkich uczestników EHDS.</p>
+        <ul>
+          <li>Instytucje publiczne i regulatorzy</li>
+          <li>Placówki medyczne i dostawcy technologii</li>
+          <li>Badacze i organizacje pacjenckie</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="cta-section" id="kontakt">
+      <div class="cta-noise"></div>
+      <p class="eyebrow reveal"><span></span> Zbudujmy to wspólnie</p>
+      <h2 class="reveal">Przyszłość danych zdrowotnych<br>powinna być <em>otwarta.</em></h2>
+      <p class="reveal">Dołącz do społeczności, która zamienia europejską wizję w działającą infrastrukturę.</p>
+      <div class="cta-actions reveal">
+        <a class="button button-dark" href="mailto:biuro@openehds.org">Porozmawiajmy <span>↗</span></a>
+        <a class="button button-outline" href="https://github.com/Open-EHDS" target="_blank" rel="noreferrer">Zobacz GitHub ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#top"><img src="assets/openehds-logo-light.png" alt="OpenEHDS"></a>
+    <p>Otwarta infrastruktura dla European Health Data Space.</p>
+    <div class="footer-links"><a href="connectors.html">Connectory</a><a href="about.html">O nas</a><a href="blog.html">Blog</a><a href="https://www.linkedin.com/company/openehds/">LinkedIn ↗</a><a href="mailto:biuro@openehds.org">E-mail ↗</a></div>
+    <small>© 2026 Fundacja OpenEHDS · Warszawa, Polska</small>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
