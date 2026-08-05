@@ -119,3 +119,9 @@ html{overflow-x:hidden}
 .council-card .portrait-placeholder{aspect-ratio:1/1}
 .council-grid .council-role{font-size:11px!important;line-height:1.9;min-height:42px}
 .council-grid .council-description{font-size:14px;line-height:1.78}
+
+/* Organisational membership */
+.membership-section{padding:82px clamp(24px,6vw,90px);display:grid;grid-template-columns:minmax(0,1.25fr) minmax(300px,.75fr);gap:clamp(55px,9vw,140px);align-items:center;background:#f3f0f4;color:#19002f;border-top:1px solid #d8cddd}
+.membership-copy>span{font-size:9px;font-weight:700;letter-spacing:.17em;color:#a20a79}.membership-copy h2{font-size:clamp(42px,4.5vw,66px);line-height:.98;margin:22px 0 26px;max-width:760px}.membership-copy h2 em{font-style:normal;color:#a20a79}.membership-copy p{max-width:680px;margin:0;color:#65596a;font-size:15px;line-height:1.75}.membership-copy>a{display:inline-block;margin-top:30px;padding-bottom:7px;border-bottom:1px solid #b9aabb;color:#4b164c;font-size:12px;font-weight:700}.membership-copy>a b{margin-left:12px;color:#f10687}
+.membership-logo{min-height:245px;padding:35px 40px;display:flex;flex-direction:column;align-items:center;justify-content:center;background:#fff;border:1px solid #d8cddd;box-shadow:0 20px 55px rgba(57,13,66,.08);transition:transform .25s ease}.membership-logo:hover{transform:translateY(-3px)}.membership-logo small{align-self:flex-start;margin-bottom:22px;color:#9a879e;font-size:8px;letter-spacing:.15em}.membership-logo img{display:block;width:min(220px,75%);height:auto}
+@media(max-width:800px){.membership-section{grid-template-columns:1fr;padding-top:70px;padding-bottom:70px}.membership-logo{min-height:210px}}
